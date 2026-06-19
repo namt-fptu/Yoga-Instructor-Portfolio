@@ -164,7 +164,7 @@ export const poseRecommendations: YogaPoseRecommendation[] = [
 ];
 
 export const facebookUrl = 'https://m.me/yogadoicanbang'; 
-export const zaloUrl = 'https://zalo.me/0901234567'; 
+export const zaloUrl = 'https://zalo.me/0367852022'; 
 
 export const classSchedules: ClassScheduleItem[] = [
   // Thứ Hai

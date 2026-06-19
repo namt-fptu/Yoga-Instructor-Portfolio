@@ -115,19 +115,19 @@ export default function App() {
   return (
     <>
       <Helmet>
-        <title>Sen Yoga - Cân Bằng & Phục Hồi Cột Sống, Thở Chỉnh Dáng</title>
-        <meta name="description" content="Trung Tâm Sen Yoga - Hơi thở là gốc, Cột sống là trọng tâm, Cân bằng là hướng đi. Đào tạo và phục hồi: thở trẻ hóa, thở chỉnh dáng eo thon, vai khom cổ rùa, lệch hông chậu." />
-        <meta name="keywords" content="sen yoga, yoga can bang, yoga phuc hoi, tho chinh dang, tho tre hoa, lech hong chau, cong veo cot song, vai khom co rua, dau vai gay, tho viem xoang" />
+        <title>Sen Yoga - Yoga Thở Trẻ Hóa, Phục Hồi Cột Sống & Cân Bằng</title>
+        <meta name="description" content="Trung Tâm Sen Yoga - Hơi thở là gốc, Cột sống là trọng tâm, Cân bằng là hướng đi. Đào tạo và phục hồi: Yoga Thở Trẻ Hóa, thở chỉnh dáng eo thon, vai khom cổ rùa, lệch hông chậu." />
+        <meta name="keywords" content="sen yoga, yoga tho tre hoa, yoga can bang, yoga phuc hoi, tho chinh dang, lech hong chau, cong veo cot song, vai khom co rua, dau vai gay, tho viem xoang" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sen Yoga - Cân Bằng & Đào Tạo Yoga Phục Hồi" />
+        <meta property="og:title" content="Sen Yoga - Yoga Thở Trẻ Hóa, Phục Hồi Cột Sống & Cân Bằng" />
         <meta property="og:description" content="Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi. Cân chỉnh lệch hông chậu, cong vẹo cột sống, vai khom cổ rùa bằng hơi thở và định tuyến khoa học." />
         <meta property="og:image" content="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Sen Yoga - Cân Bằng & Đào Tạo Yoga Phục Hồi" />
+        <meta property="twitter:title" content="Sen Yoga - Yoga Thở Trẻ Hóa, Phục Hồi Cột Sống & Cân Bằng" />
         <meta property="twitter:description" content="Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi. Cân chỉnh lệch hông chậu, cong vẹo cột sống, vai khom cổ rùa bằng hơi thở và định tuyến khoa học." />
         <meta property="twitter:image" content="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" />
       </Helmet>
@@ -1077,7 +1077,7 @@ export default function App() {
               
               {/* Call Hotline */}
               <a 
-                href="tel:+84901234567"
+                href="tel:0367852022"
                 className="bg-art-green hover:bg-art-green-hover text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[140px] focus:outline-none focus:ring-4 focus:ring-art-green/40 active:scale-95 text-center cursor-pointer"
               >
                 <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center">
@@ -1085,7 +1085,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Điện Hotline</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">+84 901 234 567</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1101,7 +1101,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Zalo: Loan Trần Yoga</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Zalo: 0367 852 022</span>
                 </div>
               </a>
 
@@ -1199,8 +1199,8 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-art-taupe shrink-0" />
-                  <a href="tel:+84901234567" className="hover:text-art-green hover:underline">
-                    +84 901 234 567
+                  <a href="tel:0367852022" className="hover:text-art-green hover:underline">
+                    0367 852 022
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
@@ -1224,12 +1224,12 @@ export default function App() {
       {/* Desktop/Tablet Floating Widgets */}
       <div className="hidden sm:flex fixed bottom-8 left-8 z-50 items-center gap-3">
         <a 
-          href="tel:+84901234567"
+          href="tel:0367852022"
           className="bg-art-green hover:bg-art-green-hover text-white px-5 py-3.5 rounded-full font-bold flex items-center gap-2.5 shadow-lg border border-white/25 active:scale-95 transition-all text-sm cursor-pointer"
           title="Gọi điện tư vấn trực tiếp"
         >
           <Phone className="w-4.5 h-4.5" />
-          <span>Gọi ngay: +84 901 234 567</span>
+          <span>Gọi ngay: 0367 852 022</span>
         </a>
         <a 
           href={zaloUrl}
@@ -1246,7 +1246,7 @@ export default function App() {
       {/* Mobile Sticky Bottom Floating Action Bar */}
       <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t-2 border-art-divider p-3.5 flex gap-3 shadow-[0_-6px_20px_rgba(43,58,46,0.12)]">
         <a 
-          href="tel:+84901234567"
+          href="tel:0367852022"
           className="flex-1 bg-art-green hover:bg-art-green-hover text-white text-base font-bold py-3.5 rounded-xl flex items-center justify-center gap-2.5 min-h-[48px] shadow-sm select-none"
         >
           <Phone className="w-5 h-5 shrink-0 stroke-[2.5]" />
