@@ -163,7 +163,7 @@ export const poseRecommendations: YogaPoseRecommendation[] = [
   }
 ];
 
-export const facebookUrl = 'https://m.me/yogadoicanbang'; 
+export const facebookUrl = 'https://www.facebook.com/share/18uEbCVmmj/?mibextid=wwXIfr'; 
 export const zaloUrl = 'https://zalo.me/0367852022'; 
 
 export const classSchedules: ClassScheduleItem[] = [
