@@ -1121,7 +1121,7 @@ export default function App() {
                 </div>
               </a>
 
-              {/* Fanpage HLV Loan Trần */}
+              {/* Fanpage Yoga Thở Trẻ Hóa */}
               <a 
                 href={facebookUrl}
                 target="_blank"
@@ -1132,8 +1132,8 @@ export default function App() {
                   <UserCheck className="w-6 h-6 text-art-green stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Fanpage HLV</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Loan Trần</span>
+                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Trang Facebook</span>
+                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Yoga Thở Trẻ Hóa</span>
                 </div>
               </a>
 
@@ -1234,7 +1234,7 @@ export default function App() {
                 <li className="flex items-center gap-2">
                   <ExternalLink className="w-3.5 h-3.5 text-art-taupe shrink-0" />
                   <a href={facebookUrl} target="_blank" rel="noreferrer" className="hover:text-art-green hover:underline">
-                    Fanpage HLV Loan Trần
+                    Fanpage Yoga Thở Trẻ Hóa
                   </a>
                 </li>
               </ul>

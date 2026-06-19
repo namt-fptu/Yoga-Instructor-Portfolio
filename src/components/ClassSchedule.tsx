@@ -291,7 +291,7 @@ export default function ClassSchedule() {
               className="w-full bg-white hover:bg-art-cream text-art-green border border-art-divider py-3 px-4 rounded-xl text-xs uppercase tracking-widest font-bold font-sans flex items-center justify-center gap-2 transition-all text-center"
             >
               <ExternalLink className="w-4 h-4 text-art-taupe" />
-              Fanpage HLV Loan Trần
+              Fanpage Yoga Thở Trẻ Hóa
             </a>
           </div>
 
