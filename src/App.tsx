@@ -1078,14 +1078,14 @@ export default function App() {
               {/* Call Hotline */}
               <a 
                 href="tel:0367852022"
-                className="bg-art-green hover:bg-art-green-hover text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-art-green/40 active:scale-95 text-center cursor-pointer"
+                className="bg-art-green hover:bg-art-green-hover text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[145px] focus:outline-none focus:ring-4 focus:ring-art-green/40 active:scale-95 text-center cursor-pointer"
               >
                 <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Hotline</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">0367 852 022</span>
+                  <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Hotline</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1094,14 +1094,14 @@ export default function App() {
                 href={zaloUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="bg-[#0068FF] hover:bg-[#0051C4] text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
+                className="bg-[#0068FF] hover:bg-[#0051C4] text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[145px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
               >
                 <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                   <MessageSquare className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Zalo: 0367 852 022</span>
+                  <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1110,14 +1110,14 @@ export default function App() {
                 href={facebookPageUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="bg-[#1877F2] hover:bg-[#166FE5] text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
+                className="bg-[#1877F2] hover:bg-[#166FE5] text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[145px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
               >
                 <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                   <ExternalLink className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Fanpage Chính Thức</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Sen Yoga</span>
+                  <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Fanpage Chính Thức</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Sen Yoga</span>
                 </div>
               </a>
 
@@ -1126,14 +1126,14 @@ export default function App() {
                 href={facebookUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="bg-white hover:bg-art-cream text-art-green p-5 rounded-2xl flex flex-col items-center justify-center gap-3 border-2 border-art-divider shadow-sm hover:shadow-md transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-art-taupe/20 active:scale-95 text-center cursor-pointer"
+                className="bg-white hover:bg-art-cream text-art-green p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 border-2 border-art-divider shadow-sm hover:shadow-md transition-all duration-300 min-h-[145px] focus:outline-none focus:ring-4 focus:ring-art-taupe/20 active:scale-95 text-center cursor-pointer"
               >
                 <div className="w-12 h-12 bg-art-green/10 rounded-full flex items-center justify-center">
                   <UserCheck className="w-6 h-6 text-art-green stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Trang Facebook</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Yoga Thở Trẻ Hóa</span>
+                  <span className="block text-xs uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Trang Facebook</span>
+                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Yoga Thở Trẻ Hóa</span>
                 </div>
               </a>
 

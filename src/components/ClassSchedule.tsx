@@ -210,7 +210,7 @@ export default function ClassSchedule() {
                             <h4 className="text-base sm:text-lg font-serif font-medium text-art-green leading-snug group-hover:text-art-taupe transition-colors">
                               {sch.className}
                             </h4>
-                            <div className="flex flex-wrap items-center gap-2 text-[10px] sm:text-[11px] text-art-text-muted">
+                            <div className="flex flex-wrap items-center gap-2 text-xs text-art-text-muted">
                               <span className="font-mono tracking-wide bg-art-taupe-bg/50 px-2 py-0.5 rounded text-art-taupe-dark">{sch.duration}</span>
                               <span className="text-art-divider/80">•</span>
                               <span className="bg-art-cream px-2 py-0.5 rounded border border-art-divider/30 text-art-taupe font-medium">Cấp độ: {sch.level}</span>
@@ -221,14 +221,14 @@ export default function ClassSchedule() {
                           <div className="md:col-span-2 flex flex-row md:flex-col gap-2 w-full mt-1 sm:mt-2 md:mt-0">
                             <button
                               onClick={() => handleContactAction('FacebookPage', sch.className)}
-                              className="flex-1 md:w-full text-center bg-[#1877F2]/5 hover:bg-[#1877F2]/10 text-[#1877F2] py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 border border-[#1877F2]/10 hover:border-[#1877F2]/30 cursor-pointer active:scale-98"
+                              className="flex-1 md:w-full text-center bg-[#1877F2]/5 hover:bg-[#1877F2]/10 text-[#1877F2] py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 border border-[#1877F2]/10 hover:border-[#1877F2]/30 cursor-pointer active:scale-98"
                             >
                               <span>FB Đăng ký</span>
                               <ExternalLink className="w-3 h-3" />
                             </button>
                             <button
                               onClick={() => handleContactAction('Zalo', sch.className)}
-                              className="flex-1 md:w-full text-center bg-art-green hover:bg-art-green-hover text-white py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 shadow-2xs hover:shadow-xs"
+                              className="flex-1 md:w-full text-center bg-art-green hover:bg-art-green-hover text-white py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 shadow-2xs hover:shadow-xs"
                             >
                               <span>Zalo Ghi Danh</span>
                               <MessageSquare className="w-3 h-3" />
