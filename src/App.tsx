@@ -1085,7 +1085,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Hotline</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
+                  <span className="block text-base font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1101,7 +1101,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
+                  <span className="block text-base font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1117,7 +1117,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Fanpage Chính Thức</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Sen Yoga</span>
+                  <span className="block text-base font-bold font-sans mt-1">Sen Yoga</span>
                 </div>
               </a>
 
@@ -1133,7 +1133,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="block text-xs uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Trang Facebook</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Yoga Thở Trẻ Hóa</span>
+                  <span className="block text-base font-bold font-sans mt-1">Yoga Thở Trẻ Hóa</span>
                 </div>
               </a>
 
