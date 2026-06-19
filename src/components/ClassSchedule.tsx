@@ -145,22 +145,6 @@ export default function ClassSchedule() {
             </motion.div>
           ) : (
             filteredSchedules.map((sch) => {
-              // Status Badge styles
-              let statusBg = '';
-              let statusText = '';
-              const isFull = sch.status === 'Góc thiền đầy';
-              
-              if (sch.status === 'Còn chỗ') {
-                statusBg = 'bg-art-green-light text-art-green border border-art-border-light';
-                statusText = 'Còn chỗ tập';
-              } else if (sch.status === 'Chỉ còn 1 chỗ') {
-                statusBg = 'bg-amber-50 text-amber-800 border border-amber-200';
-                statusText = 'Chỉ còn 1 chỗ';
-              } else {
-                statusBg = 'bg-gray-100 text-gray-500 border border-gray-200';
-                statusText = 'Lớp đã đầy';
-              }
-
               return (
                 <motion.div
                   key={sch.id}
@@ -174,7 +158,7 @@ export default function ClassSchedule() {
                   {/* Subtle highlight bar on active hover on the left border */}
                   <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-art-green opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
-                  {/* Left segment: Day, Time & Mobile Status Header */}
+                  {/* Left segment: Day, Time & Mobile Header */}
                   <div className="md:col-span-3 flex md:flex-col items-center md:items-start justify-between md:justify-center gap-2 pb-2.5 md:pb-0 border-b border-art-divider/40 md:border-b-0">
                     <div className="space-y-1">
                       <span className="inline-block px-2.5 py-0.5 bg-art-taupe-bg text-art-taupe text-[9px] uppercase tracking-widest font-bold rounded">
@@ -185,16 +169,10 @@ export default function ClassSchedule() {
                         <span className="font-mono tracking-wide">{sch.time}</span>
                       </div>
                     </div>
-                    {/* Status on Mobile aligns beautifully on the right */}
-                    <div className="md:hidden">
-                      <span className={`inline-block px-2.5 py-1 rounded-full text-[9px] font-bold uppercase tracking-wider ${statusBg}`}>
-                        {statusText}
-                      </span>
-                    </div>
                   </div>
 
                   {/* Center segment: Class Info */}
-                  <div className="md:col-span-5 lg:col-span-5 space-y-1.5 py-1 md:py-0">
+                  <div className="md:col-span-7 lg:col-span-7 space-y-1.5 py-1 md:py-0">
                     <h4 className="text-base sm:text-lg font-serif font-medium text-art-green leading-snug group-hover:text-art-taupe transition-colors">
                       {sch.className}
                     </h4>
@@ -203,13 +181,6 @@ export default function ClassSchedule() {
                       <span className="text-art-divider/80">•</span>
                       <span className="bg-art-cream px-2 py-0.5 rounded border border-art-divider/30 text-art-taupe font-medium">Cấp độ: {sch.level}</span>
                     </div>
-                  </div>
-
-                  {/* Status Indicator (Shown on Desktop, hidden on Mobile) */}
-                  <div className="hidden md:flex md:col-span-2 lg:col-span-2 items-center justify-center">
-                    <span className={`inline-block px-3 py-1.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-center ${statusBg}`}>
-                      {statusText}
-                    </span>
                   </div>
 
                   {/* Right segment: Contact CTAs, side-by-side on mobile, stacked on desktop */}
@@ -225,7 +196,7 @@ export default function ClassSchedule() {
                       onClick={() => handleContactAction('Zalo', sch.className)}
                       className="flex-1 md:w-full text-center bg-art-green hover:bg-art-green-hover text-white py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 shadow-2xs hover:shadow-xs"
                     >
-                      <span>{isFull ? 'Zalo Chờ Lớp' : 'Zalo Ghi Danh'}</span>
+                      <span>Zalo Ghi Danh</span>
                       <MessageSquare className="w-3 h-3" />
                     </button>
                   </div>
