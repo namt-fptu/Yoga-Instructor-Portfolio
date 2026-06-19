@@ -97,21 +97,6 @@ export const yogaSkills: YogaSkill[] = [
     description: 'Các phép thở luân phiên làm sạch xoang và thở nén khí giúp làm ấm, lưu thông khí hốc xoang, giảm hẳn cảm giác nghẹt mũi và nhức đầu.'
   }
 ];
-
-export const partners = [
-  { name: 'Trung Tâm Sen Yoga', subtitle: '36 Nguyễn Bình Khiêm' },
-  { name: 'Liên Minh Yoga Phục Hồi', subtitle: 'Đối tác chuyên môn' },
-  { name: 'Hiệp Hội Phục Hồi Cột Sống', subtitle: 'Hợp tác nghiên cứu' },
-  { name: 'Wellness Space', subtitle: 'Không gian tập luyện' }
-];
-
-export const yogaClassOptions = [
-  'Lớp Thở Phục Hồi & Cân Chỉnh Cột Sống (Offline/Online)',
-  'Lớp Thở Tạo Dáng - Eo Thon Mông Đào (Offline/Online)',
-  'Khóa Đào Tạo Huấn Luyện Viên 200h Cân Bằng Phục Hồi Chăm Sóc Sức Khỏe Cho Mình & Gia Đình',
-  'Cân Bằng Phục Hồi 1-Kèm-1 Thiết Kế Giáo Án Theo Thể Trạng'
-];
-
 export const poseRecommendations: YogaPoseRecommendation[] = [
   {
     mood: 'Mỏi mệt, căng thẳng cơ ngực & vai',

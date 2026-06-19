@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import { Mail, Phone, MapPin, ExternalLink, Instagram, Sparkles, Compass, Heart, Share2, ClipboardCheck, ArrowUpRight, Menu, X, ArrowUp, Copy, Flower2, Wind, Bell, Leaf, MessageSquare, Shield, CheckCircle, Activity, Award, TrendingUp, UserCheck, BookOpen } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink, Sparkles, Heart, ClipboardCheck, Menu, X, ArrowUp, Flower2, Wind, Bell, Leaf, MessageSquare, Shield, CheckCircle, Activity, Award, UserCheck, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { workExperiences, educationCertificates, yogaSkills, zaloUrl, facebookUrl, facebookPageUrl } from './data';
@@ -461,7 +461,7 @@ export default function App() {
                     Cân Bằng & Phục Hồi
                   </span>
                   <p className="text-xs text-white font-serif italic px-2">
-                    "Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi"
+                    "Lắng nghe hơi thở, khơi dậy nguồn sống tự nhiên."
                   </p>
                 </div>
               </div>
@@ -1163,7 +1163,7 @@ export default function App() {
                 </span>
               </div>
               <p className="text-sm font-serif italic text-art-green/90 leading-relaxed max-w-sm">
-                "Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi"
+                "Thân tâm an lạc – Cột sống vững vàng"
               </p>
               <p className="text-xs text-art-text-muted leading-relaxed max-w-sm">
                 Đồng hành cùng học viên phục hồi tự nhiên và đào tạo chuyên sâu thông qua hơi thở Pranayama, định tuyến cột sống sinh cơ học và cân bằng cơ thể toàn diện.
