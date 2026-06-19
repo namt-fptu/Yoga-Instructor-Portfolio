@@ -53,7 +53,7 @@ export default function ClassSchedule() {
           Lịch Thực Hành Yoga & Thở Thiền
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Loan Trần thiết kế các khung giờ đa dạng từ bình minh tĩnh lặng tới hoàng hôn phục hồi, phù hợp cho mọi hiện trạng cơ thể. Tham khảo bảng giờ và nhấn liên kết phía dưới để trao đổi trực tiếp lịch tập riêng biệt.
+          Học Viện Yoga Cân Bằng thiết kế các khung giờ đa dạng từ bình minh tĩnh lặng tới hoàng hôn phục hồi, phù hợp cho mọi hiện trạng cơ thể. Tham khảo bảng giờ và nhấn liên kết phía dưới để trao đổi trực tiếp lịch tập riêng biệt.
         </p>
       </div>
 
@@ -245,7 +245,7 @@ export default function ClassSchedule() {
               Bạn Muốn Đăng Ký Trực Tiếp Hoặc Nhận Tư Vấn Riêng?
             </h4>
             <p className="text-xs sm:text-sm text-art-text-muted leading-relaxed">
-              Loan Trần không tích hợp tính năng thanh toán hay biểu mẫu lưu trữ rườm rà tại đây nhằm tôn trọng tính riêng tư của bạn. Bạn hãy nhấp vào các liên kết trực tiếp bên dưới, gửi tin nhắn tới góc thiền của Loan Trần qua Zalo hoặc Messenger để được tư vấn lộ trình phù hợp và sắp xếp chỗ sớm nhất.
+              Học Viện không tích hợp tính năng thanh toán hay biểu mẫu lưu trữ rườm rà tại đây nhằm tôn trọng tính riêng tư của bạn. Bạn hãy nhấp vào các liên kết trực tiếp bên dưới, gửi tin nhắn tới Học Viện qua Zalo hoặc Messenger để được tư vấn lộ trình phù hợp và sắp xếp chỗ sớm nhất.
             </p>
           </div>
 
@@ -277,7 +277,7 @@ export default function ClassSchedule() {
         {/* Small check assurance status */}
         <div className="mt-4 pt-3 border-t border-art-divider flex items-center gap-2 text-[11px] text-art-text-muted select-none">
           <CheckCircle className="w-4 h-4 text-art-green" />
-          <span>Loan Trần hoạt động trực tuyến 24/7. Bạn thường sẽ nhận được câu trả lời từ tôi trong vòng 10-15 phút.</span>
+          <span>Học Viện hoạt động trực tuyến 24/7. Bạn thường sẽ nhận được câu trả lời từ chúng tôi trong vòng 10-15 phút.</span>
         </div>
       </div>
 

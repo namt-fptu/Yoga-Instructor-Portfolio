@@ -36,7 +36,7 @@ export default function FAQSection() {
           Giải Đáp Câu Hỏi Thường Gặp
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Tìm câu trả lời nhanh chóng cho các thắc mắc về kỹ thuật tập thở Pranayama, lớp trị liệu bằng chuông xoay Tây Tạng hoặc chế độ luyện tập thích hợp nhất cho thể trạng của bạn.
+          Tìm câu trả lời nhanh chóng cho các thắc mắc về kỹ thuật tập thở Pranayama, các lớp thở chỉnh dáng, phục hồi cột sống hoặc chế độ luyện tập thích hợp nhất tại Học Viện.
         </p>
       </div>
 
@@ -119,7 +119,7 @@ export default function FAQSection() {
                                 rel="noreferrer"
                                 className="text-art-green font-bold hover:underline inline-flex items-center gap-0.5 ml-1.5 uppercase tracking-wide text-[10px]"
                               >
-                                Nhắn cô Loan tư vấn <Sparkles className="w-2.5 h-2.5" />
+                                Nhắn Học Viện tư vấn <Sparkles className="w-2.5 h-2.5" />
                               </a>
                             </span>
                           </div>
@@ -137,7 +137,7 @@ export default function FAQSection() {
       {/* Trust reassurance badge */}
       <div className="mt-12 text-center border-t border-art-divider/60 pt-6 max-w-md mx-auto">
         <p className="text-[11px] text-art-text-muted italic leading-relaxed">
-          Bạn có vướng mắc nào khác chưa được liệt kê tại đây không? Hãy liên hệ nhắn tin cho Loan Trần qua Zalo hoặc Messenger bất cứ lúc nào để được hồi đáp chân thành nhất.
+          Bạn có vướng mắc nào khác chưa được liệt kê tại đây không? Hãy liên hệ nhắn tin cho Học Viện Yoga Cân Bằng qua Zalo hoặc Messenger bất cứ lúc nào để được hồi đáp chân thành nhất.
         </p>
         <a
           href={zaloUrl}
@@ -146,7 +146,7 @@ export default function FAQSection() {
           className="mt-3 inline-flex items-center gap-1.5 px-4 py-2 bg-art-taupe-bg hover:bg-art-divider text-art-green font-bold text-[10px] uppercase tracking-wider rounded-lg border border-art-divider transition-all shadow-3xs"
         >
           <MessageSquare className="w-3.5 h-3.5" />
-          Hỏi trực tiếp Loan Trần
+          Hỏi trực tiếp Học Viện
         </a>
       </div>
 

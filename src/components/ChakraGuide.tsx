@@ -31,7 +31,7 @@ export default function ChakraGuide() {
           Cơ Thể Bạn Hôm Nay Muốn Nói Gì?
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2 leading-relaxed">
-          Loan Trần thấu hiểu những mệt mỏi tinh thần và thể chất của bạn. Hãy chọn trạng thái hiện tại bên dưới để xem gợi ý tư thế (Asana) trị liệu phù hợp nhất ngay lúc này.
+          Học Viện Yoga Cân Bằng thấu hiểu những mệt mỏi tinh thần và thể chất của bạn. Hãy chọn trạng thái hiện tại bên dưới để xem gợi ý tư thế (Asana) trị liệu phù hợp nhất ngay lúc này.
         </p>
       </div>
 

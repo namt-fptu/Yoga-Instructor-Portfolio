@@ -8,138 +8,170 @@ import { WorkExperience, EducationCertificate, YogaSkill, YogaPoseRecommendation
 export const workExperiences: WorkExperience[] = [
   {
     id: 'exp1',
-    period: 'Tháng 10/2021 — Hiện tại',
-    role: 'Trưởng nhóm Huấn luyện Thể chất & Trị liệu Tâm lý',
-    company: 'An Nhiên Yoga Space',
-    description: 'Chỉ đạo chuyên môn, hướng dẫn các buổi trị liệu thiền định kết hợp chuông xoay Tây Tạng cổ truyền, hỗ trợ đắc lực cho hàng trăm học viên giảm bớt chứng mất ngủ kinh niên và rối loạn âu lo.'
+    period: '2021 — Hiện tại',
+    role: 'Sáng lập & Huấn luyện viên trưởng',
+    company: 'Học Viện Yoga Cân Bằng',
+    description: 'Thiết kế giáo trình hơi thở trị liệu và chỉnh dáng chuyên sâu. Trực tiếp giảng dạy và hướng dẫn các lớp phục hồi cột sống, cân bằng cơ xương chậu cho hơn 5.000+ học viên.'
   },
   {
     id: 'exp2',
-    period: 'Tháng 06/2017 — Tháng 10/2021',
-    role: 'Huấn luyện viên Hatha Yoga Cao cấp',
-    company: 'Elite Fitness & Yoga',
-    description: 'Thiết kế giáo án cá nhân hóa phục hồi cột sống cho nhóm học viên văn phòng gặp hội chứng đau lưng, mỏi cổ vai gáy. Tổ chức hơn 50 workshop chuyên đề về cân bằng Thân - Tâm - Trí.'
+    period: '2018 — 2021',
+    role: 'Huấn luyện viên Yoga Trị Liệu cấp cao',
+    company: 'Trung Tâm Phục Hồi Tự Nhiên & Trị Liệu Thân Tâm',
+    description: 'Chịu trách nhiệm thiết kế bài tập chỉnh dáng cho dân văn phòng gặp các hội chứng vai khom, cổ rùa, đau mỏi vai gáy cổ. Tích lũy hơn 6.000 giờ giảng dạy thực tế.'
   },
   {
     id: 'exp3',
-    period: 'Tháng 09/2015 — Tháng 12/2016',
-    role: 'Trợ giảng và Điều phối viên khóa học',
-    company: 'Sivananda Yoga Vedanta Việt Nam',
-    description: 'Hỗ trợ giảng dạy chuyên sâu các khóa Đào tạo Huấn luyện viên Yoga 200 Giờ, hướng dẫn chi tiết triết lý cổ điển Yoga cổ xưa và chế độ ăn uống thực dưỡng thanh lọc cơ thể.'
+    period: '2016 — 2018',
+    role: 'Huấn luyện viên Hatha Yoga & Hơi thở Pranayama',
+    company: 'Hệ Thống Yoga & Sức Khỏe Toàn Diện',
+    description: 'Hướng dẫn các kỹ thuật thở cổ điển kết hợp định tuyến sinh cơ học an toàn. Tích lũy hơn 4.000 giờ đứng lớp hướng dẫn trực tiếp cho mọi lứa tuổi.'
   }
 ];
 
 export const educationCertificates: EducationCertificate[] = [
   {
     id: 'edu1',
-    year: '2017',
-    title: 'Chứng chỉ HLV Yoga Quốc tế Alliance 500 Giờ (RYT 500)',
-    institution: 'Yoga Alliance USA — Đào tạo chuyên sâu tại Rishikesh, Ấn Độ',
-    gpaOrDetail: 'Xếp loại Xuất sắc (High Distinction)'
+    year: '2020',
+    title: 'Master Yoga Cân Bằng & Phục Hồi 500h',
+    institution: 'Yoga Alliance Quốc tế — Đào tạo chuyên sâu về cân chỉnh cơ xương khớp tự nhiên',
+    gpaOrDetail: 'Phương pháp định tuyến sinh cơ học cột sống & khung chậu'
   },
   {
     id: 'edu2',
-    year: '2019',
-    title: 'Chứng chỉ Trị liệu bằng Chuông Xoay Tây Tạng Himalaya',
-    institution: 'Nepal Sound Healing & Yoga Academy',
-    gpaOrDetail: 'Phương pháp gõ chuông trị liệu tầng sóng não'
+    year: '2018',
+    title: 'Chứng chỉ chuyên môn Yoga Trị Liệu 300h',
+    institution: 'Học Viện Yoga Trị Liệu Quốc Tế',
+    gpaOrDetail: 'Giải phẫu học cột sống, liệu pháp phục hồi vai gáy và hỗ trợ hô hấp'
   },
   {
     id: 'edu3',
-    year: '2015',
-    title: 'Cử nhân Khoa học Thể thao & Sức Khỏe',
-    institution: 'Đại học Sư phạm Thể dục Thể thao TP.HCM',
-    gpaOrDetail: 'GPA: 3.6 / 4.0'
+    year: '2016',
+    title: 'Chứng chỉ Giáo viên Yoga Hatha 200h',
+    institution: 'Sivananda Yoga Vedanta Vyasa',
+    gpaOrDetail: 'Kỹ thuật thở Pranayama kiểm soát khí lực & tâm trí'
   }
 ];
 
 export const yogaSkills: YogaSkill[] = [
   {
-    id: 'skill1',
-    name: 'Hatha & Yin Yoga Thư Giãn',
+    id: 'service1',
+    name: 'Thở trẻ hóa',
     icon: 'flower',
-    description: 'Tinh thông các tư thế kéo giãn sâu, cải thiện hệ tuần hoàn và tăng tính linh hoạt của các thớ cơ khớp xương.'
+    description: 'Kỹ thuật thở sâu tăng nồng độ oxy trong máu, kích hoạt hệ bạch huyết thải độc tế bào, giúp cơ thể dẻo dai và làm chậm lão hóa tự nhiên.'
   },
   {
-    id: 'skill2',
-    name: 'Kỹ thuật thở Pranayama',
-    icon: 'wind',
-    description: 'Điều phối luồng năng lượng sống, giúp tống khứ khí thải trong phổi và giải tỏa tâm trạng lo âu.'
-  },
-  {
-    id: 'skill3',
-    name: 'Trị liệu chuông xoay Tây Tạng',
-    icon: 'bell',
-    description: 'Kích hoạt năng lượng tự chữa lành trong tế bào thông qua sóng âm luân xa, mang lại trạng thái thiền định sâu.'
-  },
-  {
-    id: 'skill4',
-    name: 'Dinh dưỡng & Lối sống Xanh',
+    id: 'service2',
+    name: 'Thở chỉnh dáng eo thon, dáng chuẩn, mông đào',
     icon: 'leaf',
-    description: 'Tư vấn thực đơn thực dưỡng khoa học, giúp cơ thế nhẹ nhõm, thanh lọc độc tố một cách tự nhiên.'
+    description: 'Kích hoạt nhóm cơ lõi sâu (core) bằng hơi thở bụng dưới, siết gọn vòng eo tự nhiên và nâng cơ mông mà không tạo áp lực lên cột sống.'
+  },
+  {
+    id: 'service3',
+    name: 'Thở cân chỉnh lệch hông chậu',
+    icon: 'bell',
+    description: 'Sự kết hợp giữa thở sâu điều động khí lực và bài tập kéo cơ chéo đùi, hỗ trợ giải phóng căng cứng chéo và đưa khung chậu về vị trí cân bằng.'
+  },
+  {
+    id: 'service4',
+    name: 'Thở hỗ trợ cải thiện cong vẹo cột sống',
+    icon: 'wind',
+    description: 'Kỹ thuật dẫn khí vào các khoang liên sườn bị xẹp do cột sống cong lệch, giúp làm mềm cơ bị rút và hỗ trợ điều chỉnh độ cong tự nhiên.'
+  },
+  {
+    id: 'service5',
+    name: 'Thở chỉnh vai khom, cổ rùa',
+    icon: 'flower',
+    description: 'Chuỗi hơi thở mở ngực phối hợp định tuyến bả vai và đầu cổ, kích hoạt cơ lưng trên yếu để khôi phục lại trục đứng thẳng chuẩn mực.'
+  },
+  {
+    id: 'service6',
+    name: 'Thở giải mỏi vai gáy cổ',
+    icon: 'leaf',
+    description: 'Giải tỏa căng thẳng thần kinh vùng cổ vai gáy bằng hơi thở sâu kết hợp chuyển động chậm, tăng tuần hoàn máu não và chấm dứt tê bì bả vai.'
+  },
+  {
+    id: 'service7',
+    name: 'Thở hỗ trợ giảm khó chịu do viêm xoang',
+    icon: 'wind',
+    description: 'Các phép thở luân phiên làm sạch xoang và thở nén khí giúp làm ấm, lưu thông khí hốc xoang, giảm hẳn cảm giác nghẹt mũi và nhức đầu.'
   }
 ];
 
 export const partners = [
-  { name: 'An Nhiên Space', subtitle: 'Wellness Studio' },
-  { name: 'Elite Fitness', subtitle: 'Premium Gym & Yoga' },
-  { name: 'Sivananda Yoga', subtitle: 'Vedanta Center' },
-  { name: 'California Fitness', subtitle: 'Century Group' },
-  { name: 'Healthland Yoga', subtitle: 'Eco Retreat' },
-  { name: 'Vingroup Wellness', subtitle: 'Corporate Program' }
+  { name: 'Học Viện Yoga Cân Bằng', subtitle: 'Trụ sở chính' },
+  { name: 'Liên Minh Yoga Trị Liệu', subtitle: 'Đối tác chuyên môn' },
+  { name: 'Hiệp Hội Phục Hồi Cột Sống', subtitle: 'Hợp tác nghiên cứu' },
+  { name: 'Wellness Space', subtitle: 'Không gian tập luyện' }
 ];
 
 export const yogaClassOptions = [
-  'Hatha Yoga Căn Bản & Nâng Cao (Offline)',
-  'Yin Yoga Thư Giãn Sâu & Trị Liệu Đau Lưng (Offline/Online)',
-  'Thiền Định Và Trị Liệu Trầm Cảm Bằng Chuông Xoay (1-on-1)',
-  'Yoga Doanh Nghiệp - Workshop Cân Bằng Năng Lượng'
+  'Lớp Thở Trị Liệu & Cân Chỉnh Cột Sống (Offline/Online)',
+  'Lớp Thở Tạo Dáng - Eo Thon Mông Đào (Offline/Online)',
+  'Khóa Học Đào Tạo Huấn Luyện Viên Yoga Trị Liệu 200h/300h',
+  'Trị Liệu Cá Nhân 1-Kèm-1 Thiết Kế Giáo Án Theo Thể Trạng'
 ];
 
 export const poseRecommendations: YogaPoseRecommendation[] = [
   {
-    mood: 'Căng thẳng, âu lo (Stress)',
-    poseName: 'Tư thế Em Bé',
+    mood: 'Mỏi mệt, căng thẳng cơ ngực & vai',
+    poseName: 'Tư thế Em Bé kết hợp Thở Bụng',
     sanskritName: 'Balasana',
-    benefits: ['Xoa dịu hệ thần kinh trung ương', 'Gia tăng lưu thông máu lên não', 'Kéo giãn nhẹ nhàng vùng hông, đùi và mắt cá chân'],
-    directions: 'Quỳ trên gối, gập thân người về phía trước, trán chạm thảm. Hai tay duỗi dọc theo thân hoặc vươn dài về trước, thả lỏng bả vai sâu sắc.',
+    benefits: [
+      'Xoa dịu hệ thần kinh trung ương tức thì',
+      'Giải tỏa lực ép phần thắt lưng và vai gáy',
+      'Định hướng hơi thở sâu vào khoang phổi sau'
+    ],
+    directions: 'Quỳ trên gối, gập thân về trước, trán chạm thảm. Đưa tay ra sau thả lỏng hoàn toàn bả vai. Hít thở sâu bằng bụng, cảm nhận vùng lưng sau nở rộng theo hơi hít vào.',
     imageUrl: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=600'
   },
   {
-    mood: 'Mất ngủ, khó ngủ',
-    poseName: 'Tư thế Gác Chân Lên Tường',
+    mood: 'Mất ngủ, nhức mỏi chân & lệch hông',
+    poseName: 'Tư thế Gác Chân Lên Tường kết hợp Thở Luân Phiên',
     sanskritName: 'Viparita Karani',
-    benefits: ['Hỗ trợ tuần hoàn máu ngược từ chân về tim', 'Giảm tải căng thẳng tích tụ ở bàn chân và đùi', 'Chuẩn bị trạng thái thư giãn tuyệt đối để ngủ ngon'],
-    directions: 'Nằm ngửa sát tường, đưa cả hai chân duỗi thẳng áp lên mặt tường sao cho cơ thể tạo thành một góc vuông 90 độ. Nhắm mắt và hít thở sâu.',
+    benefits: [
+      'Tăng lưu lượng máu ngược từ chân về tim và não',
+      'Giải tỏa áp lực lên vùng hông chậu và đĩa đệm',
+      'Lắng dịu nhịp tim, chuẩn bị giấc ngủ sâu tự nhiên'
+    ],
+    directions: 'Nằm sát tường, đưa chân thẳng lên tường tạo góc 90 độ với cơ thể. Nhắm mắt và thực hiện kỹ thuật thở luân phiên qua từng lỗ mũi để cân bằng năng lượng âm dương.',
     imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=600'
   },
   {
-    mood: 'Đau mỏi vai gáy & cột sống',
-    poseName: 'Tư thế Con Mèo - Con Bò',
+    mood: 'Đau lưng, vẹo cột sống nhẹ, gù lưng',
+    poseName: 'Tư thế Con Mèo - Con Bò kết hợp Thở Đại Dương',
     sanskritName: 'Marjaryasana-Bitilasana',
-    benefits: ['Khơi thông dòng chảy sinh khí dọc tủy sống', 'Giải phóng chèn ép dây thần kinh vùng cổ vai gáy', 'Mát-xa nhẹ nhàng các cơ quan nội tạng'],
-    directions: 'Chống hai tay và đầu gối xuống thảm (tư thế cái bàn). Hít vào võng lưng ngẩng mặt (tư thế Con Bò), thở ra gù lưng cúi đầu nhìn rốn (tư thế Con Mèo).',
+    benefits: [
+      'Bôi trơn các khớp cột sống, làm mềm cơ dựng gai lưng',
+      'Giải phóng chèn ép các dây thần kinh dọc tủy sống',
+      'Kích hoạt năng lượng phục hồi thông qua âm thanh thở Ujjayi'
+    ],
+    directions: 'Tạo tư thế cái bàn 4 điểm chạm. Hít vào võng lưng mở ngực ngẩng mặt (Con Bò). Thở ra gù lưng cúi đầu hóp bụng nhìn rốn (Con Mèo). Phối hợp nhịp nhàng với hơi thở Ujjayi.',
     imageUrl: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&q=80&w=600'
   },
   {
-    mood: 'Uể oải, mệt mỏi, lười biếng',
-    poseName: 'Tư thế Chó Úp Mặt',
-    sanskritName: 'Adho Mukha Svanasana',
-    benefits: ['Tưới máu giàu oxy lên não bộ tức thì', 'Đánh thức dòng năng lượng tiềm tàng', 'Kéo vươn tối đa sườn lưng và cơ gân kheo'],
-    directions: 'Từ tư thế quỳ chống tay, đẩy hông lên cao để tạo cơ thể thành chữ V ngược. Ấn gót chân hướng về phía thảm và thả lỏng đầu cổ giữa hai cánh tay.',
+    mood: 'Nghẹt mũi, xoang tịt, uể oải',
+    poseName: 'Tư thế Ngồi Gập Người kết hợp Thở Thanh Lọc',
+    sanskritName: 'Paschimottanasana',
+    benefits: [
+      'Kéo giãn toàn bộ cơ mặt sau cơ thể và cột sống',
+      'Tạo áp lực nhẹ vùng bụng kích thích cơ quan nội tạng',
+      'Thở thanh lọc giúp thông thoáng xoang mũi, xua tan đau đầu'
+    ],
+    directions: 'Ngồi thẳng chân duỗi trước. Hít vào vươn tay cao kéo dài lưng. Thở ra gập người dài từ khớp hông về trước. Kết hợp hít sâu và thở ra chủ động bằng mũi để thông khí hốc xoang.',
     imageUrl: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&q=80&w=600'
   }
 ];
 
-export const facebookUrl = 'https://m.me/loantran.yoga'; // Refers to Messenger / Facebook Page
-export const zaloUrl = 'https://zalo.me/0901234567'; // Refers to Zalo OA or personal number
+export const facebookUrl = 'https://m.me/yogadoicanbang'; 
+export const zaloUrl = 'https://zalo.me/0901234567'; 
 
 export const classSchedules: ClassScheduleItem[] = [
   {
     id: 'sch1',
     day: 'Thứ Hai',
     time: '06:00 - 07:15',
-    className: 'Hatha Yoga Khởi Đầu Ngày Mới',
+    className: 'Khóa Thở Trẻ Hóa & Phục Hồi Sinh Khí',
     duration: '75 phút',
     status: 'Còn chỗ',
     level: 'Cơ bản'
@@ -148,7 +180,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch2',
     day: 'Thứ Hai',
     time: '18:30 - 19:45',
-    className: 'Yin Yoga Phục Hồi Thần Kinh',
+    className: 'Thở Cân Chỉnh Lệch Hông Chậu & Khung Xương',
     duration: '75 phút',
     status: 'Chỉ còn 1 chỗ',
     level: 'Mọi cấp độ'
@@ -157,7 +189,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch3',
     day: 'Thứ Ba',
     time: '08:00 - 09:15',
-    className: 'Trị Liệu Cột Sống & Đau Vai Gáy',
+    className: 'Hơi Thở Trị Liệu Cong Vẹo Cột Sống & Vai Gáy',
     duration: '75 phút',
     status: 'Còn chỗ',
     level: 'Trị liệu sâu'
@@ -166,7 +198,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch4',
     day: 'Thứ Tư',
     time: '12:00 - 13:00',
-    className: 'Yoga Trưa Nhanh Cho Dân Văn Phòng',
+    className: 'Thở Chỉnh Vai Khom, Cổ Rùa Cho Dân Văn Phòng',
     duration: '60 phút',
     status: 'Góc thiền đầy',
     level: 'Cơ bản'
@@ -175,7 +207,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch5',
     day: 'Thứ Tư',
     time: '18:30 - 20:00',
-    className: 'Thiền Định & Trị Liệu Chuông Xoay Himalaya',
+    className: 'Chuyên Đề Thở Phục Hồi & Trị Liệu Viêm Xoang',
     duration: '90 phút',
     status: 'Chỉ còn 1 chỗ',
     level: 'Trị liệu sâu'
@@ -184,7 +216,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch6',
     day: 'Thứ Năm',
     time: '06:00 - 07:15',
-    className: 'Hatha Yoga Thải Độc Độc Tố (Pranayama)',
+    className: 'Thở Tạo Dáng - Eo Thon, Dáng Chuẩn, Mông Đào',
     duration: '75 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -193,7 +225,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch7',
     day: 'Thứ Sáu',
     time: '18:30 - 19:45',
-    className: 'Vinyasa Flow Cân Bằng Thể Chất',
+    className: 'Hơi Thở Trị Liệu Cân Bằng Trục Cơ Thể',
     duration: '75 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -202,7 +234,7 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch8',
     day: 'Thứ Bảy',
     time: '08:00 - 09:30',
-    className: 'Chuyên Đề Thiền Chuông Trải Nghiệm Sâu (Offline)',
+    className: 'Lớp Đào Tạo Kỹ Thuật Thở Trị Liệu & Cân Bằng Chuyên Sâu',
     duration: '90 phút',
     status: 'Góc thiền đầy',
     level: 'Trị liệu sâu'
@@ -212,39 +244,39 @@ export const classSchedules: ClassScheduleItem[] = [
 export const testimonials: Testimonial[] = [
   {
     id: 'test1',
-    name: 'Phan Hoàng Yến',
-    role: 'Nhân viên thiết kế / Designer',
-    text: 'Tình trạng đau vai gáy và tê bì cánh tay do ngồi máy tính 10 tiếng mỗi ngày của tôi đã giảm tới 90% sau 2 tháng tập luyện cùng cô Loan Trần. Cô chỉ dẫn rất kỹ cách định tuyến hơi thở Pranayama và không bao giờ ép dẻo quá đà, làm tôi cảm thấy cực kỳ an tâm.',
+    name: 'Nguyễn Kim Oanh',
+    role: '45 tuổi, Nhân viên ngân hàng',
+    text: 'Tôi bị cong vẹo cột sống nhẹ và đau vai gáy triền miên. Sau khóa tập thở trị liệu cột sống và chỉnh vai khom tại Học Viện Yoga Cân Bằng, lưng tôi đã thẳng hơn đáng kể, không còn nhức mỏi tê bì cánh tay mỗi khi ngồi làm việc lâu nữa. Rất biết ơn sự tận tình của Học Viện.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150',
     classType: 'Trị Liệu Cột Sống'
   },
   {
     id: 'test2',
-    name: 'Trần Minh Đức',
-    role: 'Quản lý dự án / Project Manager',
-    text: 'Lớp thiền chuông xoay Tây Tạng thực sự là cứu cánh sau những giờ họp căng thẳng. Tiếng chuông trầm bổng kết hợp với sự dẫn dắt ấm áp của cô Loan đưa tôi vào trạng thái thư sảng chưa từng có. Giấc ngủ đã sâu hơn hẳn, không còn chập chờn như trước.',
+    name: 'Lê Hoàng Nam',
+    role: '38 tuổi, Doanh nhân',
+    text: 'Chứng viêm xoang mãn tính và chứng mất ngủ hành hạ tôi nhiều năm. Được hướng dẫn kỹ thuật thở luân phiên Nadi Shodhana chuyên sâu kết hợp âm thanh trị liệu chuông xoay, đường thở của tôi thông thoáng hẳn, chứng nghẹt mũi giảm rõ rệt và giấc ngủ sâu hơn rất nhiều.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
-    classType: 'Thiền Trị Liệu Chuông Xoay'
+    classType: 'Hỗ Trợ Hô Hấp & Viêm Xoang'
   },
   {
     id: 'test3',
-    name: 'Lê Thị Thu Thủy',
-    role: 'Chuyên viên ngân hàng',
-    text: 'Là người bận rộn, tôi rất thích khóa Yin Yoga vào cuối ngày. Động tác giãn cơ chậm rãi trên nền nhạc thiền yên tĩnh giúp loại bỏ hoàn toàn mệt mỏi tích tụ. Cô Loan luôn chỉnh sửa tư thế cẩn thận cho từng học viên dù là ở lớp trực tiếp Thảo Điền.',
+    name: 'Phan Thanh Mai',
+    role: '29 tuổi, Quản lý hành chính',
+    text: 'Khóa thở chỉnh dáng eo thon mông đào thực sự là một bất ngờ lớn. Không cần tập tạ hay các động tác cường độ cao, chỉ qua cơ chế siết cơ sâu bằng hơi thở và định tuyến khung chậu, vòng eo của tôi thon gọn hẳn và cơ mông săn chắc, lại giải quyết luôn chứng mỏi thắt lưng.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150',
-    classType: 'Yin Yoga Phục Hồi'
+    classType: 'Thở Chỉnh Dáng Eo Thon'
   },
   {
     id: 'test4',
-    name: 'Nguyễn Lâm Phong',
-    role: 'Kinh doanh tự do',
-    text: 'Không gian tập luyện thanh tịnh, cô giáo nhẹ nhàng, chuyên môn cực kỳ vững vàng. Những bài tập thở Pranayama cổ điển đã giúp tôi cải thiện sức bền thể trạng sau đợt ốm dậy rất nhiều. Đăng ký nhận lời khuyên sức khoẻ qua Zalo cực kỳ nhanh gọn.',
+    name: 'Trần Thị Thu',
+    role: '56 tuổi, Cán bộ hưu trí',
+    text: 'Khớp hông chậu bị lệch do thói quen ngồi chéo chân làm tôi đi lại khó khăn và hay bị nhức mỏi đùi. Nhờ tham gia lớp thở cân chỉnh lệch hông chậu, tôi học cách điều hòa hơi thở vào xương chậu và kéo giãn cơ cân bằng. Nay tôi đi đứng vững vàng hơn, cơ thể rất nhẹ nhõm.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150',
-    classType: 'Hatha Yoga Pranayama'
+    classType: 'Thở Cân Chỉnh Hông Chậu'
   }
 ];
 
@@ -252,33 +284,31 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq1',
     category: 'sức_khỏe',
-    question: 'Tôi bị cứng khớp, không hề dẻo dai thì học Yoga được không?',
-    answer: 'Hoàn toàn được! Gốc rễ của Yoga không nằm ở việc ép dẻo hay tạo ra những tư thế uốn lượn kỳ vĩ, mà là việc quay về thấu hiểu giới hạn của chính cơ thể qua dòng chảy của hơi thở. Tại lớp của Loan Trần, bạn sẽ được hướng dẫn dùng gạch xốp, dây đai hỗ trợ và các biến thể nhẹ nhàng nhất để dần mở khớp một cách an lành, tự nhiên.'
+    question: 'Người bị cong vẹo cột sống hoặc lệch hông lâu năm có tập thở chỉnh dáng được không?',
+    answer: 'Hoàn toàn được. Các bài tập thở kết hợp chỉnh dáng tại Học Viện Yoga Cân Bằng được thiết kế cá nhân hóa, dựa trên định tuyến sinh cơ học an toàn của cơ xương khớp. Hơi thở sâu đóng vai trò giải tỏa các bó cơ co rút xung quanh xương chậu và cột sống, giúp cân chỉnh tư thế một cách tự nhiên và bền vững mà không gây áp lực đau đớn.'
   },
   {
     id: 'faq2',
-    category: 'khấn_khoản',
-    question: 'Nên ăn uống thế nào trước và sau khi tham gia buổi tập?',
-    answer: 'Để buổi tập đạt hiệu quả tốt nhất và tránh cảm giác đầy bụng, khó chịu, bạn nên hoàn thành bữa ăn chính trước khi tập ít nhất 2 đến 3 tiếng. Nếu cảm thấy đói sát giờ tập, bạn có thể uống một ít nước ấm ấm hoặc ăn nửa quả chuối trước 30-45 phút.'
+    category: 'sức_khỏe',
+    question: 'Phương pháp thở giảm khó chịu do viêm xoang hoạt động như thế nào?',
+    answer: 'Học viên sẽ được hướng dẫn các kỹ thuật Pranayama cổ điển như thở luân phiên (Nadi Shodhana) và thở rung (Kapalbhati). Các phép thở này giúp tăng lưu lượng tuần hoàn khí qua các khoang xoang, hỗ trợ đào thải dịch ứ đọng tự nhiên, làm dịu niêm mạc và giảm thiểu áp lực trong hốc xoang gây nhức đầu khó chịu.'
   },
   {
     id: 'faq3',
     category: 'lớp_học',
-    question: 'Trị liệu chuông xoay Himalaya khác biệt thế nào với lớp Yoga thông thường?',
-    answer: 'Trị liệu chuông xoay Tây Tạng là phương pháp chữa lành bằng rung động âm thanh sâu. Trong khi bạn nằm thư giãn hoàn toàn ở tư thế Shavasana, các sóng âm hài hòa phát ra từ chuông xoay cơ học đúc thủ công sẽ tác động trực tiếp lên hệ thần kinh trung ương và màng tế bào đại học, giúp xóa tan căng thẳng, điều hòa nhịp tim và hỗ trợ sâu sắc đối với người mất ngủ mãn tính.'
+    question: 'Thời gian thực hành bao lâu thì cảm nhận được hiệu quả cân bằng cơ thể?',
+    answer: 'Chỉ ngay sau buổi đầu tiên, bạn sẽ cảm nhận được lồng ngực mở rộng, hơi thở sâu hơn và vùng vai gáy nhẹ nhõm rõ rệt. Đối với các vấn đề định hình cấu trúc như vai khom, cổ rùa, lệch hông chậu hay siết eo thon, học viên sẽ nhận thấy sự cải thiện rõ ràng về tư thế sau 4-8 tuần thực hành đều đặn 3 buổi/tuần dưới sự hướng dẫn tỉ mỉ.'
   },
   {
     id: 'faq4',
-    category: 'sức_khỏe',
-    question: 'Đau vai gáy nặng hoặc thoát vị đĩa đệm lưng tập lớp nào an toàn?',
-    answer: 'Đối với chứng đau vai gáy do ngồi làm việc nhiều hoặc thoát vị nhẹ, lớp "Trị Liệu Cột Sống & Đau Vai Gáy" vào Thứ Ba hằng tuần được thiết kế riêng cho bạn. Cần chủ động thông báo tình trạng cột sống cụ thể cho Loan Trần qua Zalo hoặc gặp trực tiếp trước giờ tập để giáo viên linh động điều tiết các bài vặn xoắn và nhấn cơ chuyên nghiệp tránh lực đè lên đĩa đệm.'
+    category: 'khác',
+    question: 'Tại sao Học Viện lại lấy tôn chỉ "Hơi thở là gốc – Cột sống là trọng tâm"?',
+    answer: 'Hơi thở là nguồn cung cấp sinh khí cốt lõi và điều hòa hệ thần kinh thực vật. Cột sống là trục đỡ trung tâm bảo vệ hệ thần kinh trung ương. Khi lấy hơi thở sâu làm chất dẫn để giải tỏa các vùng cơ co cứng, đồng thời định tuyến lại cột sống thẳng thớm, cơ thể sẽ tự động thiết lập lại trạng thái cân bằng tự nhiên và tự chữa lành các tổn thương.'
   },
   {
     id: 'faq5',
-    category: 'khác',
-    question: 'Loan Trần có các lớp dạy trực tuyến (Online) không?',
-    answer: 'Có! Bên cạnh trải nghiệm phục hồi sâu trực tiếp tại góc thiền Thảo Điền, Loan Trần duy trì một nhóm học trực tuyến tương tác màn hình sống động qua Zoom dành cho các bạn học viên ở xa hoặc lịch trình bận rộn. Bạn vui lòng nhắn trực tiếp qua Zalo hoặc Messenger để nhận mã liên kết thử lớp trực tuyến.'
+    category: 'lớp_học',
+    question: 'Học viện có các chương trình đào tạo hay chỉ có các lớp trị liệu phục hồi?',
+    answer: 'Học Viện cung cấp đầy đủ cả hai hệ thống: Lớp thực hành trị liệu phục hồi thể trạng (dành cho học viên cần cải thiện đau mỏi, lệch dáng) và các chương trình đào tạo chuyên sâu (dành cho những ai mong muốn trở thành Huấn luyện viên Yoga Trị Liệu & Cân Bằng Thân Tâm chuyên nghiệp).'
   }
 ];
-
-

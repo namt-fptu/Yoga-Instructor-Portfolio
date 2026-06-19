@@ -73,7 +73,7 @@ export default function Testimonials() {
           Hành Trình Chữa Lành Nối Dài
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Sự thay đổi tích cực về sức khỏe thể chất và nét an yên trong tâm hồn của mỗi học viên là món quà quý giá nhất trong sự nghiệp của Loan Trần.
+          Sự thay đổi tích cực về sức khỏe thể chất và nét an yên trong tâm hồn của mỗi học viên là món quà quý giá nhất trong sứ mệnh của Học Viện Yoga Cân Bằng.
         </p>
       </div>
 
