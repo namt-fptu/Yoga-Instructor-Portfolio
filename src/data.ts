@@ -167,77 +167,250 @@ export const facebookUrl = 'https://m.me/yogadoicanbang';
 export const zaloUrl = 'https://zalo.me/0901234567'; 
 
 export const classSchedules: ClassScheduleItem[] = [
+  // Thứ Hai
   {
     id: 'sch1',
     day: 'Thứ Hai',
-    time: '06:00 - 07:15',
-    className: 'Khóa Thở Trẻ Hóa & Phục Hồi Sinh Khí',
-    duration: '75 phút',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Cơ bản'
+    level: 'Trị liệu sâu'
   },
   {
     id: 'sch2',
     day: 'Thứ Hai',
-    time: '18:30 - 19:45',
-    className: 'Thở Cân Chỉnh Lệch Hông Chậu & Khung Xương',
-    duration: '75 phút',
-    status: 'Chỉ còn 1 chỗ',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
     level: 'Mọi cấp độ'
   },
   {
     id: 'sch3',
+    day: 'Thứ Hai',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch4',
+    day: 'Thứ Hai',
+    time: '19:00 - 21:00',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    duration: '120 phút',
+    status: 'Chỉ còn 1 chỗ',
+    level: 'Trị liệu sâu'
+  },
+
+  // Thứ Ba
+  {
+    id: 'sch5',
     day: 'Thứ Ba',
-    time: '08:00 - 09:15',
-    className: 'Hơi Thở Trị Liệu Cong Vẹo Cột Sống & Vai Gáy',
-    duration: '75 phút',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Trị liệu sâu'
   },
   {
-    id: 'sch4',
-    day: 'Thứ Tư',
-    time: '12:00 - 13:00',
-    className: 'Thở Chỉnh Vai Khom, Cổ Rùa Cho Dân Văn Phòng',
-    duration: '60 phút',
-    status: 'Góc thiền đầy',
-    level: 'Cơ bản'
-  },
-  {
-    id: 'sch5',
-    day: 'Thứ Tư',
-    time: '18:30 - 20:00',
-    className: 'Chuyên Đề Thở Phục Hồi & Trị Liệu Viêm Xoang',
-    duration: '90 phút',
-    status: 'Chỉ còn 1 chỗ',
-    level: 'Trị liệu sâu'
-  },
-  {
     id: 'sch6',
-    day: 'Thứ Năm',
-    time: '06:00 - 07:15',
-    className: 'Thở Tạo Dáng - Eo Thon, Dáng Chuẩn, Mông Đào',
-    duration: '75 phút',
+    day: 'Thứ Ba',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
   },
   {
     id: 'sch7',
-    day: 'Thứ Sáu',
-    time: '18:30 - 19:45',
-    className: 'Hơi Thở Trị Liệu Cân Bằng Trục Cơ Thể',
-    duration: '75 phút',
+    day: 'Thứ Ba',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch8',
+    day: 'Thứ Ba',
+    time: '19:00 - 20:00',
+    className: 'Giải Mỏi Vai Gáy Cổ, Thở Ngủ Ngon (Online/Trực Tiếp)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
+  },
+
+  // Thứ Tư
+  {
+    id: 'sch9',
+    day: 'Thứ Tư',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch10',
+    day: 'Thứ Tư',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
   },
   {
-    id: 'sch8',
-    day: 'Thứ Bảy',
-    time: '08:00 - 09:30',
-    className: 'Lớp Đào Tạo Kỹ Thuật Thở Trị Liệu & Cân Bằng Chuyên Sâu',
-    duration: '90 phút',
-    status: 'Góc thiền đầy',
+    id: 'sch11',
+    day: 'Thứ Tư',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch12',
+    day: 'Thứ Tư',
+    time: '13:15 - 15:00',
+    className: 'PT Đào Tạo Huấn Luyện Viên 1-Kèm-1 (Online)',
+    duration: '105 phút',
+    status: 'Còn chỗ',
     level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch13',
+    day: 'Thứ Tư',
+    time: '19:00 - 21:00',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    duration: '120 phút',
+    status: 'Chỉ còn 1 chỗ',
+    level: 'Trị liệu sâu'
+  },
+
+  // Thứ Năm
+  {
+    id: 'sch14',
+    day: 'Thứ Năm',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch15',
+    day: 'Thứ Năm',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
+  },
+  {
+    id: 'sch16',
+    day: 'Thứ Năm',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch17',
+    day: 'Thứ Năm',
+    time: '19:00 - 20:00',
+    className: 'Giải Mỏi Vai Gáy Cổ, Thở Ngủ Ngon (Online/Trực Tiếp)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
+  },
+
+  // Thứ Sáu
+  {
+    id: 'sch18',
+    day: 'Thứ Sáu',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch19',
+    day: 'Thứ Sáu',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
+  },
+  {
+    id: 'sch20',
+    day: 'Thứ Sáu',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch21',
+    day: 'Thứ Sáu',
+    time: '13:15 - 15:00',
+    className: 'PT Đào Tạo Huấn Luyện Viên 1-Kèm-1 (Online)',
+    duration: '105 phút',
+    status: 'Còn chỗ',
+    level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch22',
+    day: 'Thứ Sáu',
+    time: '19:00 - 21:00',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    duration: '120 phút',
+    status: 'Chỉ còn 1 chỗ',
+    level: 'Trị liệu sâu'
+  },
+
+  // Thứ Bảy
+  {
+    id: 'sch23',
+    day: 'Thứ Bảy',
+    time: '05:00 - 06:00',
+    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Trị liệu sâu'
+  },
+  {
+    id: 'sch24',
+    day: 'Thứ Bảy',
+    time: '06:15 - 07:15',
+    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
+  },
+  {
+    id: 'sch25',
+    day: 'Thứ Bảy',
+    time: '12:00 - 13:00',
+    className: 'PT: Phục Hồi Cá Nhân 1-Kèm-1 (Online)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Cơ bản'
+  },
+  {
+    id: 'sch26',
+    day: 'Thứ Bảy',
+    time: '19:00 - 20:00',
+    className: 'Giải Mỏi Vai Gáy Cổ, Thở Ngủ Ngon (Online/Trực Tiếp)',
+    duration: '60 phút',
+    status: 'Còn chỗ',
+    level: 'Mọi cấp độ'
   }
 ];
 

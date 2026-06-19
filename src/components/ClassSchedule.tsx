@@ -236,8 +236,12 @@ export default function ClassSchedule() {
         </AnimatePresence>
       </div>
 
+      <div className="mt-4 text-center text-xs text-art-text-muted italic select-none">
+        * Các khung giờ còn lại trong ngày nhận thiết kế lớp tập Yoga & thở trị liệu cá nhân (PT) theo yêu cầu riêng biệt.
+      </div>
+
       {/* Main Multi-channel Registration Guidance Box */}
-      <div className="mt-10 p-6 bg-art-taupe-bg/40 border border-art-divider rounded-xl">
+      <div className="mt-6 p-6 bg-art-taupe-bg/40 border border-art-divider rounded-xl">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
           
           <div className="md:col-span-8 space-y-2">
