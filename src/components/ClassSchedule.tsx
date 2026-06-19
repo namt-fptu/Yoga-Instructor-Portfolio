@@ -131,79 +131,117 @@ export default function ClassSchedule() {
 
       </div>
 
-      {/* Schedule Render Grid with fully response visual treatment */}
-      <div className="space-y-4 min-h-[150px]">
+      {/* Schedule Render Grid with fully responsive grouped layout */}
+      <div className="space-y-8 min-h-[150px]">
         <AnimatePresence mode="popLayout">
-          {filteredSchedules.length === 0 ? (
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0 }}
-              className="text-center py-10 px-4 border border-dashed border-art-divider rounded-xl text-xs text-art-text-muted bg-art-cream/40"
-            >
-              Chưa tìm thấy buổi học phù hợp với bộ lọc đã chọn. Hãy chọn một "Thứ trong tuần" hoặc "Cấp độ" khác.
-            </motion.div>
-          ) : (
-            filteredSchedules.map((sch) => {
+          {(() => {
+            const scheduleDaysOrder = ['Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
+            const activeDays = (selectedDay === 'Tất cả' ? scheduleDaysOrder : [selectedDay]).filter((day) =>
+              filteredSchedules.some((sch) => sch.day === day)
+            );
+
+            if (activeDays.length === 0) {
               return (
                 <motion.div
-                  key={sch.id}
-                  layout
-                  initial={{ opacity: 0, y: 12 }}
+                  initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -12 }}
-                  transition={{ duration: 0.25 }}
-                  className="p-4 sm:p-5 bg-white border border-art-divider/60 hover:border-art-green/40 hover:bg-art-cream/20 rounded-2xl transition-all duration-300 shadow-3xs hover:shadow-xs flex flex-col md:grid md:grid-cols-12 gap-3 md:gap-4 items-stretch md:items-center relative overflow-hidden group"
+                  exit={{ opacity: 0 }}
+                  className="text-center py-10 px-4 border border-dashed border-art-divider rounded-xl text-xs text-art-text-muted bg-art-cream/40"
                 >
-                  {/* Subtle highlight bar on active hover on the left border */}
-                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-art-green opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                  Chưa tìm thấy buổi học phù hợp với bộ lọc đã chọn. Hãy chọn một "Thứ trong tuần" hoặc "Cấp độ" khác.
+                </motion.div>
+              );
+            }
 
-                  {/* Left segment: Day, Time & Mobile Header */}
-                  <div className="md:col-span-3 flex md:flex-col items-center md:items-start justify-between md:justify-center gap-2 pb-2.5 md:pb-0 border-b border-art-divider/40 md:border-b-0">
-                    <div className="space-y-1">
-                      <span className="inline-block px-2.5 py-0.5 bg-art-taupe-bg text-art-taupe text-[9px] uppercase tracking-widest font-bold rounded">
-                        {sch.day}
-                      </span>
-                      <div className="flex items-center gap-1.5 text-xs sm:text-sm text-art-green font-semibold mt-1">
-                        <Clock className="w-3.5 h-3.5 text-art-taupe" />
-                        <span className="font-mono tracking-wide">{sch.time}</span>
-                      </div>
+            return activeDays.map((day) => {
+              const daySchedules = filteredSchedules.filter((sch) => sch.day === day);
+              const dayInfo = getDayLabel(day);
+
+              return (
+                <motion.div
+                  key={day}
+                  layout
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -15 }}
+                  transition={{ duration: 0.3 }}
+                  className="space-y-4"
+                >
+                  {/* Day Header - Highly Prominent */}
+                  <div className="flex items-center gap-4 mt-6 first:mt-0 group">
+                    <div className="flex-none w-10 h-10 rounded-full bg-art-green/10 border border-art-green/30 flex items-center justify-center text-art-green font-serif font-bold text-sm shadow-2xs group-hover:bg-art-green group-hover:text-white transition-all duration-300">
+                      {dayInfo.abbr}
                     </div>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="text-lg sm:text-xl font-serif font-bold text-art-green-dark tracking-wide">
+                        {day}
+                      </h4>
+                      <p className="text-[9px] uppercase tracking-widest text-art-taupe font-bold">
+                        Khung giờ thực hành ({daySchedules.length} lớp học)
+                      </p>
+                    </div>
+                    <div className="hidden sm:block flex-1 h-[1px] bg-gradient-to-r from-art-divider/60 to-transparent" />
                   </div>
 
-                  {/* Center segment: Class Info */}
-                  <div className="md:col-span-7 lg:col-span-7 space-y-1.5 py-1 md:py-0">
-                    <h4 className="text-base sm:text-lg font-serif font-medium text-art-green leading-snug group-hover:text-art-taupe transition-colors">
-                      {sch.className}
-                    </h4>
-                    <div className="flex flex-wrap items-center gap-2 text-[10px] sm:text-[11px] text-art-text-muted">
-                      <span className="font-mono tracking-wide bg-art-taupe-bg/50 px-2 py-0.5 rounded text-art-taupe-dark">{sch.duration}</span>
-                      <span className="text-art-divider/80">•</span>
-                      <span className="bg-art-cream px-2 py-0.5 rounded border border-art-divider/30 text-art-taupe font-medium">Cấp độ: {sch.level}</span>
-                    </div>
-                  </div>
+                  {/* Indented schedules list with left-line timeline */}
+                  <div className="pl-6 sm:pl-8 border-l border-art-divider/80 ml-5 space-y-4">
+                    {daySchedules.map((sch) => {
+                      return (
+                        <motion.div
+                          key={sch.id}
+                          layout
+                          initial={{ opacity: 0, y: 12 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -12 }}
+                          transition={{ duration: 0.25 }}
+                          className="p-4 sm:p-5 bg-white border border-art-divider/60 hover:border-art-green/40 hover:bg-art-cream/20 rounded-2xl transition-all duration-300 shadow-3xs hover:shadow-xs flex flex-col md:grid md:grid-cols-12 gap-3 md:gap-4 items-stretch md:items-center relative overflow-hidden group"
+                        >
+                          {/* Subtle highlight bar on active hover on the left border */}
+                          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-art-green opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
-                  {/* Right segment: Contact CTAs, side-by-side on mobile, stacked on desktop */}
-                  <div className="md:col-span-2 flex flex-row md:flex-col gap-2 w-full mt-1 sm:mt-2 md:mt-0">
-                    <button
-                      onClick={() => handleContactAction('Facebook', sch.className)}
-                      className="flex-1 md:w-full text-center bg-[#1877F2]/5 hover:bg-[#1877F2]/10 text-[#1877F2] py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 border border-[#1877F2]/10 hover:border-[#1877F2]/30 cursor-pointer active:scale-98"
-                    >
-                      <span>FB Đăng ký</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </button>
-                    <button
-                      onClick={() => handleContactAction('Zalo', sch.className)}
-                      className="flex-1 md:w-full text-center bg-art-green hover:bg-art-green-hover text-white py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 shadow-2xs hover:shadow-xs"
-                    >
-                      <span>Zalo Ghi Danh</span>
-                      <MessageSquare className="w-3 h-3" />
-                    </button>
+                          {/* Left segment: Time */}
+                          <div className="md:col-span-2 flex items-center gap-1.5 text-xs sm:text-sm text-art-green font-semibold pb-2 md:pb-0 border-b border-art-divider/40 md:border-b-0">
+                            <Clock className="w-3.5 h-3.5 text-art-taupe" />
+                            <span className="font-mono tracking-wide">{sch.time}</span>
+                          </div>
+
+                          {/* Center segment: Class Info */}
+                          <div className="md:col-span-8 space-y-1.5 py-1 md:py-0">
+                            <h4 className="text-base sm:text-lg font-serif font-medium text-art-green leading-snug group-hover:text-art-taupe transition-colors">
+                              {sch.className}
+                            </h4>
+                            <div className="flex flex-wrap items-center gap-2 text-[10px] sm:text-[11px] text-art-text-muted">
+                              <span className="font-mono tracking-wide bg-art-taupe-bg/50 px-2 py-0.5 rounded text-art-taupe-dark">{sch.duration}</span>
+                              <span className="text-art-divider/80">•</span>
+                              <span className="bg-art-cream px-2 py-0.5 rounded border border-art-divider/30 text-art-taupe font-medium">Cấp độ: {sch.level}</span>
+                            </div>
+                          </div>
+
+                          {/* Right segment: Contact CTAs, side-by-side on mobile, stacked on desktop */}
+                          <div className="md:col-span-2 flex flex-row md:flex-col gap-2 w-full mt-1 sm:mt-2 md:mt-0">
+                            <button
+                              onClick={() => handleContactAction('Facebook', sch.className)}
+                              className="flex-1 md:w-full text-center bg-[#1877F2]/5 hover:bg-[#1877F2]/10 text-[#1877F2] py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 border border-[#1877F2]/10 hover:border-[#1877F2]/30 cursor-pointer active:scale-98"
+                            >
+                              <span>FB Đăng ký</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </button>
+                            <button
+                              onClick={() => handleContactAction('Zalo', sch.className)}
+                              className="flex-1 md:w-full text-center bg-art-green hover:bg-art-green-hover text-white py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 shadow-2xs hover:shadow-xs"
+                            >
+                              <span>Zalo Ghi Danh</span>
+                              <MessageSquare className="w-3 h-3" />
+                            </button>
+                          </div>
+                        </motion.div>
+                      );
+                    })}
                   </div>
                 </motion.div>
               );
-            })
-          )}
+            });
+          })()}
         </AnimatePresence>
       </div>
 
