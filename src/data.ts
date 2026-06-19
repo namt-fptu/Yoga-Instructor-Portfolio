@@ -164,6 +164,7 @@ export const poseRecommendations: YogaPoseRecommendation[] = [
 ];
 
 export const facebookUrl = 'https://www.facebook.com/share/18uEbCVmmj/?mibextid=wwXIfr'; 
+export const facebookPageUrl = 'https://www.facebook.com/share/1HdWiACGuJ/?mibextid=wwXIfr'; 
 export const zaloUrl = 'https://zalo.me/0367852022'; 
 
 export const classSchedules: ClassScheduleItem[] = [

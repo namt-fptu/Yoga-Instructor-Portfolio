@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Calendar, Clock, Sparkles, MessageSquare, ExternalLink, HelpCircle, FileText, CheckCircle } from 'lucide-react';
-import { classSchedules, facebookUrl, zaloUrl } from '../data';
+import { classSchedules, facebookUrl, facebookPageUrl, zaloUrl } from '../data';
 import { ClassScheduleItem } from '../types';
 
 const getDayLabel = (d: string) => {
@@ -32,11 +32,11 @@ export default function ClassSchedule() {
     return matchesDay && matchesLevel;
   });
 
-  const handleContactAction = (platform: 'Zalo' | 'Facebook', className: string) => {
+  const handleContactAction = (platform: 'Zalo' | 'Facebook' | 'FacebookPage', className: string) => {
     setJustClicked(platform);
     setTimeout(() => setJustClicked(null), 3000);
 
-    const url = platform === 'Zalo' ? zaloUrl : facebookUrl;
+    const url = platform === 'Zalo' ? zaloUrl : (platform === 'FacebookPage' ? facebookPageUrl : facebookUrl);
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -220,7 +220,7 @@ export default function ClassSchedule() {
                           {/* Right segment: Contact CTAs, side-by-side on mobile, stacked on desktop */}
                           <div className="md:col-span-2 flex flex-row md:flex-col gap-2 w-full mt-1 sm:mt-2 md:mt-0">
                             <button
-                              onClick={() => handleContactAction('Facebook', sch.className)}
+                              onClick={() => handleContactAction('FacebookPage', sch.className)}
                               className="flex-1 md:w-full text-center bg-[#1877F2]/5 hover:bg-[#1877F2]/10 text-[#1877F2] py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-1.5 border border-[#1877F2]/10 hover:border-[#1877F2]/30 cursor-pointer active:scale-98"
                             >
                               <span>FB Đăng ký</span>
@@ -275,13 +275,23 @@ export default function ClassSchedule() {
             </a>
 
             <a
+              href={facebookPageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full bg-[#1877F2] hover:bg-[#166FE5] text-white py-3 px-4 rounded-xl text-xs uppercase tracking-widest font-bold font-sans flex items-center justify-center gap-2 transition-all text-center"
+            >
+              <ExternalLink className="w-4 h-4 text-white" />
+              Nhắn Tin Qua Fanpage
+            </a>
+
+            <a
               href={facebookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full bg-white hover:bg-art-cream text-[#1877F2] border border-[#1877F2]/30 hover:border-[#1877F2] py-3 px-4 rounded-xl text-xs uppercase tracking-widest font-bold font-sans flex items-center justify-center gap-2 transition-all text-center"
+              className="w-full bg-white hover:bg-art-cream text-art-green border border-art-divider py-3 px-4 rounded-xl text-xs uppercase tracking-widest font-bold font-sans flex items-center justify-center gap-2 transition-all text-center"
             >
-              <ExternalLink className="w-4 h-4 text-[#1877F2]" />
-              Nhắn Qua Facebook
+              <ExternalLink className="w-4 h-4 text-art-taupe" />
+              Facebook Cá Nhân HLV
             </a>
           </div>
 

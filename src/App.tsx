@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, ExternalLink, Instagram, Sparkles, Compass, Heart, Share2, ClipboardCheck, ArrowUpRight, Menu, X, ArrowUp, Copy, Flower2, Wind, Bell, Leaf, MessageSquare, Shield, CheckCircle, Activity, Award, TrendingUp, UserCheck, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
-import { workExperiences, educationCertificates, yogaSkills, zaloUrl } from './data';
+import { workExperiences, educationCertificates, yogaSkills, zaloUrl, facebookUrl, facebookPageUrl } from './data';
 import ZenTimer from './components/ZenTimer';
 import ChakraGuide from './components/ChakraGuide';
 import ClassSchedule from './components/ClassSchedule';
@@ -1073,19 +1073,19 @@ export default function App() {
               Quý học viên từ 40 đến 70+ tuổi có thể liên hệ trực tiếp cho Huấn luyện viên Loan Trần qua các phương thức bên dưới. Tất cả các nút đều được thiết kế kích thước lớn, dễ đọc và tự động mở ứng dụng điện thoại/email để kết nối nhanh nhất:
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-6">
               
               {/* Call Hotline */}
               <a 
                 href="tel:0367852022"
-                className="bg-art-green hover:bg-art-green-hover text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[140px] focus:outline-none focus:ring-4 focus:ring-art-green/40 active:scale-95 text-center cursor-pointer"
+                className="bg-art-green hover:bg-art-green-hover text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-art-green/40 active:scale-95 text-center cursor-pointer"
               >
-                <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center">
-                  <Phone className="w-8 h-8 text-white stroke-[2.5]" />
+                <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Điện Hotline</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">0367 852 022</span>
+                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Nhấn Gọi Hotline</span>
+                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">0367 852 022</span>
                 </div>
               </a>
 
@@ -1094,28 +1094,46 @@ export default function App() {
                 href={zaloUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="bg-[#0068FF] hover:bg-[#0051C4] text-white p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 shadow-md hover:shadow-xl transition-all duration-300 min-h-[140px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
+                className="bg-[#0068FF] hover:bg-[#0051C4] text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
               >
-                <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center">
-                  <MessageSquare className="w-8 h-8 text-white stroke-[2.5]" />
+                <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                  <MessageSquare className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-xs uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
-                  <span className="block text-lg sm:text-xl font-bold font-sans mt-1">Zalo: 0367 852 022</span>
+                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Nhấn Nhắn Tin Zalo</span>
+                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Zalo: 0367 852 022</span>
                 </div>
               </a>
 
-              {/* Email application */}
+              {/* Fanpage Sen Yoga */}
               <a 
-                href="mailto:contact@loantran-yoga.vn"
-                className="bg-art-taupe-bg hover:bg-art-divider text-art-green p-6 rounded-2xl flex flex-col items-center justify-center gap-3.5 border-2 border-art-divider shadow-sm hover:shadow-md transition-all duration-300 min-h-[140px] focus:outline-none focus:ring-4 focus:ring-art-taupe/20 active:scale-95 text-center cursor-pointer"
+                href={facebookPageUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#1877F2] hover:bg-[#166FE5] text-white p-5 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-blue-300 active:scale-95 text-center cursor-pointer"
               >
-                <div className="w-14 h-14 bg-art-green/10 rounded-full flex items-center justify-center">
-                  <Mail className="w-8 h-8 text-art-green stroke-[2.5]" />
+                <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                  <ExternalLink className="w-6 h-6 text-white stroke-[2.5]" />
                 </div>
                 <div>
-                  <span className="block text-xs uppercase tracking-widest font-extrabold text-art-green/80">Nhấn Gửi Thư Điện Tử</span>
-                  <span className="block text-base sm:text-lg font-bold font-sans mt-1 break-all">contact@loantran-yoga.vn</span>
+                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-white/80">Fanpage Chính Thức</span>
+                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">Sen Yoga</span>
+                </div>
+              </a>
+
+              {/* Facebook Cá Nhân */}
+              <a 
+                href={facebookUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="bg-white hover:bg-art-cream text-art-green p-5 rounded-2xl flex flex-col items-center justify-center gap-3 border-2 border-art-divider shadow-sm hover:shadow-md transition-all duration-300 min-h-[130px] focus:outline-none focus:ring-4 focus:ring-art-taupe/20 active:scale-95 text-center cursor-pointer"
+              >
+                <div className="w-12 h-12 bg-art-green/10 rounded-full flex items-center justify-center">
+                  <UserCheck className="w-6 h-6 text-art-green stroke-[2.5]" />
+                </div>
+                <div>
+                  <span className="block text-[10px] uppercase tracking-widest font-extrabold text-art-taupe-dark/80">Facebook Cá Nhân</span>
+                  <span className="block text-base sm:text-lg font-bold font-sans mt-1">HLV Loan Trần</span>
                 </div>
               </a>
 
@@ -1206,6 +1224,18 @@ export default function App() {
                 <li className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-art-taupe shrink-0" />
                   <span>36 Nguyễn Bình Khiêm, TP. HCM</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <ExternalLink className="w-3.5 h-3.5 text-art-taupe shrink-0" />
+                  <a href={facebookPageUrl} target="_blank" rel="noreferrer" className="hover:text-art-green hover:underline">
+                    Fanpage Sen Yoga
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <ExternalLink className="w-3.5 h-3.5 text-art-taupe shrink-0" />
+                  <a href={facebookUrl} target="_blank" rel="noreferrer" className="hover:text-art-green hover:underline">
+                    Facebook Cá Nhân HLV
+                  </a>
                 </li>
               </ul>
             </div>
