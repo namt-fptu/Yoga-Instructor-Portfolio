@@ -25,13 +25,13 @@ export default function ChakraGuide() {
     <div id="chakra-section" className="bg-art-cream border border-art-border-light rounded-2xl p-6 sm:p-8 shadow-[0_4px_24px_rgba(74,93,78,0.02)]">
       <div className="text-center max-w-xl mx-auto mb-8">
         <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-art-taupe bg-white px-4.5 py-1.5 border border-art-divider rounded-full shadow-2xs">
-          GỌI Ý TƯ THẾ TRỊ LIỆU
+          GỌI Ý TƯ THẾ PHỤC HỒI
         </span>
         <h3 className="text-2xl sm:text-3xl font-serif mt-3 text-art-green tracking-tight font-normal italic">
           Cơ Thể Bạn Hôm Nay Muốn Nói Gì?
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2 leading-relaxed">
-          Học Viện Yoga Cân Bằng thấu hiểu những mệt mỏi tinh thần và thể chất của bạn. Hãy chọn trạng thái hiện tại bên dưới để xem gợi ý tư thế (Asana) trị liệu phù hợp nhất ngay lúc này.
+          Trung Tâm Sen Yoga thấu hiểu những mệt mỏi tinh thần và thể chất của bạn. Hãy chọn trạng thái hiện tại bên dưới để xem gợi ý tư thế (Asana) phục hồi phù hợp nhất ngay lúc này.
         </p>
       </div>
 
@@ -95,7 +95,7 @@ export default function ChakraGuide() {
               {/* Benefits list */}
               <div className="mt-5">
                 <span className="text-[10px] uppercase tracking-wider font-extrabold text-art-taupe block mb-2.5 font-sans">
-                  LỢI ÍCH TRỊ LIỆU:
+                  LỢI ÍCH PHỤC HỒI:
                 </span>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   {currentPose.benefits.map((b, bi) => (
@@ -131,7 +131,7 @@ export default function ChakraGuide() {
                 }}
                 className="text-xs text-art-green font-bold hover:text-art-taupe underline transition-colors cursor-pointer"
               >
-                Nhận tư vấn trị liệu riêng biệt →
+                Nhận tư vấn riêng biệt →
               </button>
             </div>
 

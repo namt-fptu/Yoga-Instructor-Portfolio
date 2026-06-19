@@ -70,10 +70,10 @@ export default function Testimonials() {
           LỜI CẢM NHẬN TỪ HỌC VIÊN
         </span>
         <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif mt-3 text-art-green tracking-tight font-normal italic">
-          Hành Trình Chữa Lành Nối Dài
+          Hành Trình Phục Hồi Nối Dài
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Sự thay đổi tích cực về sức khỏe thể chất và nét an yên trong tâm hồn của mỗi học viên là món quà quý giá nhất trong sứ mệnh của Học Viện Yoga Cân Bằng.
+          Sự thay đổi tích cực về sức khỏe thể chất và nét an yên trong tâm hồn của mỗi học viên là món quà quý giá nhất trong sứ mệnh của Trung Tâm Sen Yoga.
         </p>
       </div>
 

@@ -9,15 +9,15 @@ export const workExperiences: WorkExperience[] = [
   {
     id: 'exp1',
     period: '2021 — Hiện tại',
-    role: 'Sáng lập & Huấn luyện viên trưởng',
-    company: 'Học Viện Yoga Cân Bằng',
-    description: 'Thiết kế giáo trình hơi thở trị liệu và chỉnh dáng chuyên sâu. Trực tiếp giảng dạy và hướng dẫn các lớp phục hồi cột sống, cân bằng cơ xương chậu cho hơn 5.000+ học viên.'
+    role: 'Chủ trung tâm Sen Yoga',
+    company: '36 Nguyễn Bình Khiêm',
+    description: 'Thiết kế giáo trình hơi thở phục hồi và chỉnh dáng chuyên sâu. Trực tiếp giảng dạy và hướng dẫn các lớp phục hồi cột sống, cân bằng cơ xương chậu cho nhiều học viên.'
   },
   {
     id: 'exp2',
     period: '2018 — 2021',
-    role: 'Huấn luyện viên Yoga Trị Liệu cấp cao',
-    company: 'Trung Tâm Phục Hồi Tự Nhiên & Trị Liệu Thân Tâm',
+    role: 'Huấn luyện viên Yoga Phục Hồi cấp cao',
+    company: 'Trung Tâm Phục Hồi Tự Nhiên & Chăm Sóc Thân Tâm',
     description: 'Chịu trách nhiệm thiết kế bài tập chỉnh dáng cho dân văn phòng gặp các hội chứng vai khom, cổ rùa, đau mỏi vai gáy cổ. Tích lũy hơn 6.000 giờ giảng dạy thực tế.'
   },
   {
@@ -40,8 +40,8 @@ export const educationCertificates: EducationCertificate[] = [
   {
     id: 'edu2',
     year: '2018',
-    title: 'Chứng chỉ chuyên môn Yoga Trị Liệu 300h',
-    institution: 'Học Viện Yoga Trị Liệu Quốc Tế',
+    title: 'Chứng chỉ chuyên môn Yoga Phục Hồi 300h',
+    institution: 'Tổ chức Đào tạo Yoga Phục Hồi Quốc Tế',
     gpaOrDetail: 'Giải phẫu học cột sống, liệu pháp phục hồi vai gáy và hỗ trợ hô hấp'
   },
   {
@@ -56,7 +56,7 @@ export const educationCertificates: EducationCertificate[] = [
 export const yogaSkills: YogaSkill[] = [
   {
     id: 'service1',
-    name: 'Thở trẻ hóa',
+    name: 'Yoga Thở trẻ hóa',
     icon: 'flower',
     description: 'Kỹ thuật thở sâu tăng nồng độ oxy trong máu, kích hoạt hệ bạch huyết thải độc tế bào, giúp cơ thể dẻo dai và làm chậm lão hóa tự nhiên.'
   },
@@ -99,17 +99,17 @@ export const yogaSkills: YogaSkill[] = [
 ];
 
 export const partners = [
-  { name: 'Học Viện Yoga Cân Bằng', subtitle: 'Trụ sở chính' },
-  { name: 'Liên Minh Yoga Trị Liệu', subtitle: 'Đối tác chuyên môn' },
+  { name: 'Trung Tâm Sen Yoga', subtitle: '36 Nguyễn Bình Khiêm' },
+  { name: 'Liên Minh Yoga Phục Hồi', subtitle: 'Đối tác chuyên môn' },
   { name: 'Hiệp Hội Phục Hồi Cột Sống', subtitle: 'Hợp tác nghiên cứu' },
   { name: 'Wellness Space', subtitle: 'Không gian tập luyện' }
 ];
 
 export const yogaClassOptions = [
-  'Lớp Thở Trị Liệu & Cân Chỉnh Cột Sống (Offline/Online)',
+  'Lớp Thở Phục Hồi & Cân Chỉnh Cột Sống (Offline/Online)',
   'Lớp Thở Tạo Dáng - Eo Thon Mông Đào (Offline/Online)',
-  'Khóa Học Đào Tạo Huấn Luyện Viên Yoga Trị Liệu 200h/300h',
-  'Trị Liệu Cá Nhân 1-Kèm-1 Thiết Kế Giáo Án Theo Thể Trạng'
+  'Khóa Đào Tạo Huấn Luyện Viên 200h Cân Bằng Phục Hồi Chăm Sóc Sức Khỏe Cho Mình & Gia Đình',
+  'Cân Bằng Phục Hồi 1-Kèm-1 Thiết Kế Giáo Án Theo Thể Trạng'
 ];
 
 export const poseRecommendations: YogaPoseRecommendation[] = [
@@ -172,16 +172,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch1',
     day: 'Thứ Hai',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    className: 'Lớp VIP: Hơi Thở & Phục Hồi (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch2',
     day: 'Thứ Hai',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -199,10 +199,10 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch4',
     day: 'Thứ Hai',
     time: '19:00 - 21:00',
-    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên 200h Cân Bằng Phục Hồi Chăm Sóc Sức Khỏe Cho Mình & Gia Đình (Online)',
     duration: '120 phút',
     status: 'Chỉ còn 1 chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
 
   // Thứ Ba
@@ -210,16 +210,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch5',
     day: 'Thứ Ba',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    className: 'Lớp VIP: Cân Bằng Phục Hồi (Trực Tiếp)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch6',
     day: 'Thứ Ba',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -248,16 +248,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch9',
     day: 'Thứ Tư',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    className: 'Lớp VIP: Hơi Thở & Phục Hồi (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch10',
     day: 'Thứ Tư',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -278,16 +278,16 @@ export const classSchedules: ClassScheduleItem[] = [
     className: 'PT Đào Tạo Huấn Luyện Viên 1-Kèm-1 (Online)',
     duration: '105 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch13',
     day: 'Thứ Tư',
     time: '19:00 - 21:00',
-    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên 200h Cân Bằng Phục Hồi Chăm Sóc Sức Khỏe Cho Mình & Gia Đình (Online)',
     duration: '120 phút',
     status: 'Chỉ còn 1 chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
 
   // Thứ Năm
@@ -295,16 +295,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch14',
     day: 'Thứ Năm',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    className: 'Lớp VIP: Cân Bằng Phục Hồi (Trực Tiếp)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch15',
     day: 'Thứ Năm',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -333,16 +333,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch18',
     day: 'Thứ Sáu',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Hơi Thở & Trị Liệu (Online)',
+    className: 'Lớp VIP: Hơi Thở & Phục Hồi (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch19',
     day: 'Thứ Sáu',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -363,16 +363,16 @@ export const classSchedules: ClassScheduleItem[] = [
     className: 'PT Đào Tạo Huấn Luyện Viên 1-Kèm-1 (Online)',
     duration: '105 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch22',
     day: 'Thứ Sáu',
     time: '19:00 - 21:00',
-    className: 'Khóa Đào Tạo Huấn Luyện Viên Yoga Trị Liệu (Online)',
+    className: 'Khóa Đào Tạo Huấn Luyện Viên 200h Cân Bằng Phục Hồi Chăm Sóc Sức Khỏe Cho Mình & Gia Đình (Online)',
     duration: '120 phút',
     status: 'Chỉ còn 1 chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
 
   // Thứ Bảy
@@ -380,16 +380,16 @@ export const classSchedules: ClassScheduleItem[] = [
     id: 'sch23',
     day: 'Thứ Bảy',
     time: '05:00 - 06:00',
-    className: 'Lớp VIP: Trị Liệu Cân Bằng (Trực Tiếp)',
+    className: 'Lớp VIP: Cân Bằng Phục Hồi (Trực Tiếp)',
     duration: '60 phút',
     status: 'Còn chỗ',
-    level: 'Trị liệu sâu'
+    level: 'Phục hồi sâu'
   },
   {
     id: 'sch24',
     day: 'Thứ Bảy',
     time: '06:15 - 07:15',
-    className: 'PT: Trị Liệu Cá Nhân 1-Kèm-1 (Online)',
+    className: 'PT: Cân Bằng Cá Nhân 1-Kèm-1 (Online)',
     duration: '60 phút',
     status: 'Còn chỗ',
     level: 'Mọi cấp độ'
@@ -419,16 +419,16 @@ export const testimonials: Testimonial[] = [
     id: 'test1',
     name: 'Nguyễn Kim Oanh',
     role: '45 tuổi, Nhân viên ngân hàng',
-    text: 'Tôi bị cong vẹo cột sống nhẹ và đau vai gáy triền miên. Sau khóa tập thở trị liệu cột sống và chỉnh vai khom tại Học Viện Yoga Cân Bằng, lưng tôi đã thẳng hơn đáng kể, không còn nhức mỏi tê bì cánh tay mỗi khi ngồi làm việc lâu nữa. Rất biết ơn sự tận tình của Học Viện.',
+    text: 'Tôi bị cong vẹo cột sống nhẹ và đau vai gáy triền miên. Sau khóa tập thở phục hồi cột sống và chỉnh vai khom tại Trung Tâm Sen Yoga, lưng tôi đã thẳng hơn đáng kể, không còn nhức mỏi tê bì cánh tay mỗi khi ngồi làm việc lâu nữa. Rất biết ơn sự tận tình của Trung Tâm.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150',
-    classType: 'Trị Liệu Cột Sống'
+    classType: 'Phục Hồi Cột Sống'
   },
   {
     id: 'test2',
     name: 'Lê Hoàng Nam',
     role: '38 tuổi, Doanh nhân',
-    text: 'Chứng viêm xoang mãn tính và chứng mất ngủ hành hạ tôi nhiều năm. Được hướng dẫn kỹ thuật thở luân phiên Nadi Shodhana chuyên sâu kết hợp âm thanh trị liệu chuông xoay, đường thở của tôi thông thoáng hẳn, chứng nghẹt mũi giảm rõ rệt và giấc ngủ sâu hơn rất nhiều.',
+    text: 'Chứng viêm xoang mãn tính và chứng mất ngủ hành hạ tôi nhiều năm. Được hướng dẫn kỹ thuật thở luân phiên Nadi Shodhana chuyên sâu kết hợp âm thanh phục hồi chuông xoay, đường thở của tôi thông thoáng hẳn, chứng nghẹt mũi giảm rõ rệt và giấc ngủ sâu hơn rất nhiều.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
     classType: 'Hỗ Trợ Hô Hấp & Viêm Xoang'
@@ -458,7 +458,7 @@ export const faqs: FAQItem[] = [
     id: 'faq1',
     category: 'sức_khỏe',
     question: 'Người bị cong vẹo cột sống hoặc lệch hông lâu năm có tập thở chỉnh dáng được không?',
-    answer: 'Hoàn toàn được. Các bài tập thở kết hợp chỉnh dáng tại Học Viện Yoga Cân Bằng được thiết kế cá nhân hóa, dựa trên định tuyến sinh cơ học an toàn của cơ xương khớp. Hơi thở sâu đóng vai trò giải tỏa các bó cơ co rút xung quanh xương chậu và cột sống, giúp cân chỉnh tư thế một cách tự nhiên và bền vững mà không gây áp lực đau đớn.'
+    answer: 'Hoàn toàn được. Các bài tập thở kết hợp chỉnh dáng tại Trung Tâm Sen Yoga được thiết kế cá nhân hóa, dựa trên định tuyến sinh cơ học an toàn của cơ xương khớp. Hơi thở sâu đóng vai trò giải tỏa các bó cơ co rút xung quanh xương chậu và cột sống, giúp cân chỉnh tư thế một cách tự nhiên và bền vững mà không gây áp lực đau đớn.'
   },
   {
     id: 'faq2',
@@ -475,13 +475,13 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq4',
     category: 'khác',
-    question: 'Tại sao Học Viện lại lấy tôn chỉ "Hơi thở là gốc – Cột sống là trọng tâm"?',
-    answer: 'Hơi thở là nguồn cung cấp sinh khí cốt lõi và điều hòa hệ thần kinh thực vật. Cột sống là trục đỡ trung tâm bảo vệ hệ thần kinh trung ương. Khi lấy hơi thở sâu làm chất dẫn để giải tỏa các vùng cơ co cứng, đồng thời định tuyến lại cột sống thẳng thớm, cơ thể sẽ tự động thiết lập lại trạng thái cân bằng tự nhiên và tự chữa lành các tổn thương.'
+    question: 'Tại sao Trung tâm lại lấy tôn chỉ "Hơi thở là gốc – Cột sống là trọng tâm"?',
+    answer: 'Hơi thở là nguồn cung cấp sinh khí cốt lõi và điều hòa hệ thần kinh thực vật. Cột sống là trục đỡ trung tâm bảo vệ hệ thần kinh trung ương. Khi lấy hơi thở sâu làm chất dẫn để giải tỏa các vùng cơ co cứng, đồng thời định tuyến lại cột sống thẳng thớm, cơ thể sẽ tự động thiết lập lại trạng thái cân bằng tự nhiên và tự phục hồi các tổn thương.'
   },
   {
     id: 'faq5',
     category: 'lớp_học',
-    question: 'Học viện có các chương trình đào tạo hay chỉ có các lớp trị liệu phục hồi?',
-    answer: 'Học Viện cung cấp đầy đủ cả hai hệ thống: Lớp thực hành trị liệu phục hồi thể trạng (dành cho học viên cần cải thiện đau mỏi, lệch dáng) và các chương trình đào tạo chuyên sâu (dành cho những ai mong muốn trở thành Huấn luyện viên Yoga Trị Liệu & Cân Bằng Thân Tâm chuyên nghiệp).'
+    question: 'Trung tâm có các chương trình đào tạo hay chỉ có các lớp phục hồi sức khỏe?',
+    answer: 'Trung Tâm cung cấp đầy đủ cả hai hệ thống: Lớp thực hành phục hồi thể trạng (dành cho học viên cần cải thiện đau mỏi, lệch dáng) và các chương trình đào tạo chuyên sâu (dành cho những ai mong muốn trở thành Huấn luyện viên Yoga Cân Bằng & Phục Hồi Thân Tâm chuyên nghiệp).'
   }
 ];

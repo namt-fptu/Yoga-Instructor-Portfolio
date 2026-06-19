@@ -115,19 +115,19 @@ export default function App() {
   return (
     <>
       <Helmet>
-        <title>Học Viện Yoga Cân Bằng - Trị Liệu & Phục Hồi Cột Sống, Thở Chỉnh Dáng</title>
-        <meta name="description" content="Học Viện Yoga Cân Bằng - Hơi thở là gốc, Cột sống là trọng tâm, Cân bằng là hướng đi. Đào tạo và trị liệu: thở trẻ hóa, thở chỉnh dáng eo thon, vai khom cổ rùa, lệch hông chậu." />
-        <meta name="keywords" content="hoc vien yoga can bang, yoga tri lieu, tho chinh dang, tho tre hoa, lech hong chau, cong veo cot song, vai khom co rua, dau vai gay, tho viem xoang" />
+        <title>Sen Yoga - Cân Bằng & Phục Hồi Cột Sống, Thở Chỉnh Dáng</title>
+        <meta name="description" content="Trung Tâm Sen Yoga - Hơi thở là gốc, Cột sống là trọng tâm, Cân bằng là hướng đi. Đào tạo và phục hồi: thở trẻ hóa, thở chỉnh dáng eo thon, vai khom cổ rùa, lệch hông chậu." />
+        <meta name="keywords" content="sen yoga, yoga can bang, yoga phuc hoi, tho chinh dang, tho tre hoa, lech hong chau, cong veo cot song, vai khom co rua, dau vai gay, tho viem xoang" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Học Viện Yoga Cân Bằng - Trị Liệu & Đào Tạo Yoga Phục Hồi" />
+        <meta property="og:title" content="Sen Yoga - Cân Bằng & Đào Tạo Yoga Phục Hồi" />
         <meta property="og:description" content="Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi. Cân chỉnh lệch hông chậu, cong vẹo cột sống, vai khom cổ rùa bằng hơi thở và định tuyến khoa học." />
         <meta property="og:image" content="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Học Viện Yoga Cân Bằng - Trị Liệu & Đào Tạo Yoga Phục Hồi" />
+        <meta property="twitter:title" content="Sen Yoga - Cân Bằng & Đào Tạo Yoga Phục Hồi" />
         <meta property="twitter:description" content="Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi. Cân chỉnh lệch hông chậu, cong vẹo cột sống, vai khom cổ rùa bằng hơi thở và định tuyến khoa học." />
         <meta property="twitter:image" content="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" />
       </Helmet>
@@ -240,7 +240,7 @@ export default function App() {
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="font-serif text-2xl sm:text-3xl text-art-green tracking-widest italic font-medium uppercase"
               >
-                HỌC VIỆN YOGA CÂN BẰNG
+                SEN YOGA
               </motion.h1>
 
               <motion.p
@@ -331,14 +331,14 @@ export default function App() {
         <header className="px-5 py-4 sm:px-12 border-b border-art-divider flex items-center justify-between bg-white z-30 relative">
           <div className="flex items-center gap-2">
             <span className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-art-green flex items-center justify-center text-white font-serif font-bold text-base sm:text-lg shadow-sm">
-              YCB
+              SEN
             </span>
             <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
               <span className="font-serif tracking-widest italic text-base sm:text-lg md:text-xl text-art-green font-bold uppercase">
-                YOGA CÂN BẰNG
+                SEN YOGA
               </span>
               <span className="inline-block text-[10px] sm:text-[11px] w-max uppercase tracking-[0.2em] font-extrabold text-art-taupe bg-art-taupe-bg px-2.5 py-1 rounded-full border border-art-divider mt-0.5 sm:mt-0">
-                Học Viện Trị Liệu & Đào Tạo
+                Cân Bằng & Phục Hồi
               </span>
             </div>
           </div>
@@ -382,14 +382,14 @@ export default function App() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="hover:text-art-taupe transition-colors py-3.5 border-b-2 border-art-divider flex items-center select-none"
                 >
-                  Giới thiệu Học Viện
+                  Giới thiệu Trung Tâm
                 </a>
                 <a
                   href="#services-section"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="hover:text-art-taupe transition-colors py-3.5 border-b-2 border-art-divider flex items-center select-none"
                 >
-                  Dịch vụ Thở Trị Liệu
+                  Dịch vụ Thở Phục Hồi
                 </a>
                 <a
                   href="#benefits-section"
@@ -444,7 +444,7 @@ export default function App() {
                 
                 <BlurUpImage
                   src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
-                  alt="Học Viện Yoga Cân Bằng"
+                  alt="Trung Tâm Sen Yoga"
                   containerClassName="w-full h-full"
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 hover:scale-105 transition-all duration-350"
                 />
@@ -458,7 +458,7 @@ export default function App() {
                 {/* Floating Mantra */}
                 <div className="absolute bottom-6 left-4 right-4 text-center">
                   <span className="text-[10px] text-art-taupe-bg uppercase font-bold tracking-[0.3em] block mb-1">
-                    Trị Liệu & Phục Hồi
+                    Cân Bằng & Phục Hồi
                   </span>
                   <p className="text-xs text-white font-serif italic px-2">
                     "Hơi thở là gốc – Cột sống là trọng tâm – Cân bằng là hướng đi"
@@ -482,13 +482,13 @@ export default function App() {
             <div className="md:col-span-7 lg:col-span-7 space-y-6">
               <div>
                 <span className="text-[10px] uppercase tracking-[0.3em] text-art-taupe font-bold px-3 py-1 bg-art-taupe-bg rounded-full border border-art-divider/60 inline-block mb-3.5">
-                  Yoga Therapy Academy
+                  Sen Yoga Center
                 </span>
                 
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-art-green tracking-tight leading-[1.1] font-normal italic">
                   Chào mừng bạn đến với <br/>
                   <span className="font-sans font-bold not-italic text-4xl sm:text-5xl lg:text-6xl text-art-green block mt-1">
-                    Học Viện Yoga Cân Bằng
+                    Trung Tâm Sen Yoga
                   </span>
                 </h1>
                 
@@ -518,7 +518,7 @@ export default function App() {
                   className="bg-white hover:bg-art-cream text-art-green border-2 border-art-divider px-6 py-4 rounded-full text-xs sm:text-sm uppercase tracking-widest font-extrabold transition-all flex items-center gap-2 min-h-[48px] active:scale-95"
                 >
                   <Mail className="w-4 h-4 text-art-taupe" />
-                  Gửi Email Học Viện
+                  Gửi Email Trung Tâm
                 </a>
 
                 <a
@@ -561,7 +561,7 @@ export default function App() {
           {/* GIỚI THIỆU BẢN THÂN CHI TIẾT HƠN */}
           <div className="mt-12 pt-8 border-t border-art-divider">
             <span className="text-[10px] uppercase tracking-[0.25em] font-sans font-bold text-art-taupe block text-center mb-4">
-              GIỚI THIỆU HỌC VIỆN & PHƯƠNG PHÁP
+              GIỚI THIỆU TRUNG TÂM & PHƯƠNG PHÁP
             </span>
             
             {/* Interactive Tab Headers */}
@@ -717,7 +717,7 @@ export default function App() {
                         </li>
                         <li className="flex items-start gap-3">
                           <span className="w-2 h-2 rounded-full bg-art-green mt-2.5 shrink-0" />
-                          <span><strong>Đào tạo thế hệ HLV trị liệu:</strong> Kiến tạo những người giảng dạy có chuyên môn giải phẫu học vững vàng, mang hơi thở phục hồi lan tỏa tới cộng đồng.</span>
+                          <span><strong>Đào tạo Huấn luyện viên:</strong> Kiến tạo những người giảng dạy có chuyên môn giải phẫu học vững vàng, mang hơi thở phục hồi lan tỏa tới cộng đồng.</span>
                         </li>
                         <li className="flex items-start gap-3">
                           <span className="w-2 h-2 rounded-full bg-art-green mt-2.5 shrink-0" />
@@ -746,8 +746,8 @@ export default function App() {
               </div>
 
               <div className="bg-art-cream/25 p-4 rounded-xl border border-art-divider/60 flex flex-col items-center justify-center hover:scale-[1.02] hover:bg-art-cream/40 transition-all duration-300">
-                <span className="font-serif text-2xl sm:text-3xl text-art-green font-bold">5.000+</span>
-                <span className="text-[9px] uppercase tracking-[0.15em] font-bold text-art-taupe mt-1.5">Học Viên Trị Liệu & Đào Tạo</span>
+                <span className="font-serif text-2xl sm:text-3xl text-art-green font-bold">Nhiều</span>
+                <span className="text-[9px] uppercase tracking-[0.15em] font-bold text-art-taupe mt-1.5">Học Viên Đồng Hành</span>
               </div>
 
               <div className="bg-art-cream/25 p-4 rounded-xl border border-art-divider/60 flex flex-col items-center justify-center hover:scale-[1.02] hover:bg-art-cream/40 transition-all duration-300">
@@ -837,10 +837,10 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-art-taupe bg-white px-4 py-1.5 border border-art-divider rounded-full shadow-2xs inline-flex items-center gap-1.5">
               <Sparkles className="w-3 h-3 text-art-green" />
-              DANH MỤC DỊCH VỤ TRỊ LIỆU
+              DANH MỤC DỊCH VỤ PHỤC HỒI
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif mt-3 text-art-green tracking-wide font-normal italic">
-              7 Liệu Pháu Thở & Cân Chỉnh Trọng Tâm
+              7 Liệu Pháp Thở & Cân Chỉnh Trọng Tâm
             </h2>
             <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
               Các giải pháp phục hồi tự nhiên được thiết kế riêng biệt, sử dụng hơi thở Pranayama khoa học làm chất dẫn để giải tỏa các bó cơ và cân chỉnh trục cột sống.
@@ -966,13 +966,13 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-art-taupe bg-white px-4 py-1.5 border border-art-divider rounded-full shadow-2xs inline-flex items-center gap-1.5">
               <BookOpen className="w-3 h-3 text-art-green" />
-              QUY TRÌNH THỰC HÀNH TẠI HỌC VIỆN
+              QUY TRÌNH THỰC HÀNH TẠI TRUNG TÂM
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif mt-3 text-art-green tracking-wide font-normal italic">
               Lộ Trình Cân Bằng Đạt Chuẩn 4 Bước
             </h2>
             <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-              Mỗi học viên khi đến với Học Viện Yoga Cân Bằng đều được thiết lập quy trình học bài bản và khoa học để đảm bảo cải thiện thể trạng hiệu quả và an toàn.
+              Mỗi học viên khi đến với Trung Tâm Sen Yoga đều được thiết lập quy trình học bài bản và khoa học để đảm bảo cải thiện thể trạng hiệu quả và an toàn.
             </p>
           </div>
 
@@ -1124,7 +1124,7 @@ export default function App() {
             <div className="bg-art-cream border-2 border-art-divider p-5 sm:p-6 rounded-xl flex items-center gap-4 text-left max-w-xl mx-auto mt-6">
               <span className="text-4xl">🧘‍♀️</span>
               <p className="text-base text-art-text-muted leading-relaxed font-bold">
-                <strong>An tâm tập luyện:</strong> Nếu quý vị cần trao đổi kỹ hơn về thể trạng đau cột sống, lệch hông chậu hoặc viêm xoang của mình, chỉ cần kết nối theo nút nhấn ở trên. Đội ngũ chuyên gia của Học Viện luôn sẵn lòng lắng nghe và đưa ra những tư vấn phù hợp nhất.
+                <strong>An tâm tập luyện:</strong> Nếu quý vị cần trao đổi kỹ hơn về thể trạng đau cột sống, lệch hông chậu hoặc viêm xoang của mình, chỉ cần kết nối theo nút nhấn ở trên. Đội ngũ chuyên gia của Trung tâm luôn sẵn lòng lắng nghe và đưa ra những tư vấn phù hợp nhất.
               </p>
             </div>
           </div>
@@ -1138,10 +1138,10 @@ export default function App() {
             <div className="md:col-span-6 space-y-3.5">
               <div className="flex items-center gap-2">
                 <span className="w-8 h-8 rounded-full bg-art-green flex items-center justify-center text-white font-serif font-bold text-sm shadow-sm">
-                  YCB
+                  SEN
                 </span>
                 <span className="font-serif tracking-widest italic text-base text-art-green font-medium uppercase">
-                  Học Viện Yoga Cân Bằng
+                  Trung Tâm Sen Yoga
                 </span>
               </div>
               <p className="text-sm font-serif italic text-art-green/90 leading-relaxed max-w-sm">
@@ -1167,7 +1167,7 @@ export default function App() {
                 <li>
                   <a href="#services-section" className="hover:text-art-green transition-colors flex items-center gap-1.5 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-art-taupe/60" />
-                    Dịch Vụ Trị Liệu
+                    Dịch Vụ Phục Hồi
                   </a>
                 </li>
                 <li>
@@ -1205,7 +1205,7 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-art-taupe shrink-0" />
-                  <span>Studio Cân Bằng, Quận 2, TP. HCM</span>
+                  <span>36 Nguyễn Bình Khiêm, TP. HCM</span>
                 </li>
               </ul>
             </div>
@@ -1213,7 +1213,7 @@ export default function App() {
           </div>
 
           <div className="mt-8 pt-6 border-t border-art-divider/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-art-text-muted">
-            <p>© {new Date().getFullYear()} Học Viện Yoga Cân Bằng. Bảo lưu mọi quyền.</p>
+            <p>© {new Date().getFullYear()} Trung Tâm Sen Yoga. Bảo lưu mọi quyền.</p>
             <p className="italic">Hơi thở dẫn lối – Cột sống vững vàng – Thân tâm cân bằng • Namaste</p>
           </div>
         </footer>

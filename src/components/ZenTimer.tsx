@@ -135,10 +135,10 @@ export default function ZenTimer() {
             <span>Trải Nghiệm Thư Thái</span>
           </div>
           <h3 className="text-2xl font-serif text-art-green tracking-wide font-normal italic">
-            Trị Liệu Chuông Xoay Tây Tạng
+            Chuông Xoay Tây Tạng Phục Hồi
           </h3>
           <p className="text-sm text-art-text-muted leading-relaxed">
-            Nhấp chuột vào chiếc chuông thanh tịnh bên dưới để lắng nghe âm vang nguyên bản, sảng khoái và xua tan căng thẳng mệt nhoài tức thì bằng sóng rung chữa lành.
+            Nhấp chuột vào chiếc chuông thanh tịnh bên dưới để lắng nghe âm vang nguyên bản, sảng khoái và xua tan căng thẳng mệt nhoài tức thì bằng tần số rung động phục hồi.
           </p>
  
           <div className="pt-2 flex flex-col sm:flex-row gap-3 items-center justify-center md:justify-start">
@@ -150,7 +150,7 @@ export default function ZenTimer() {
               }`}
             >
               <Volume2 className="w-4 h-4" />
-              Gõ Chuông Trị Liệu
+              Gõ Chuông Phục Hồi
             </button>
             <span className="text-[10px] uppercase tracking-wider font-bold text-art-taupe hidden sm:inline-block">
               *Đeo tai nghe để cảm nhận sâu

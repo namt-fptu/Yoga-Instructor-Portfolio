@@ -33,7 +33,7 @@ export interface ClassScheduleItem {
   className: string; // e.g. "Yin Yoga Trị Liệu"
   duration: string; // e.g. "60 phút"
   status: 'Còn chỗ' | 'Góc thiền đầy' | 'Chỉ còn 1 chỗ';
-  level: 'Cơ bản' | 'Mọi cấp độ' | 'Trị liệu sâu';
+  level: 'Cơ bản' | 'Mọi cấp độ' | 'Phục hồi sâu';
 }
 
 export interface YogaPoseRecommendation {

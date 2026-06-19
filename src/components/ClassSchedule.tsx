@@ -23,7 +23,7 @@ export default function ClassSchedule() {
   const [justClicked, setJustClicked] = useState<string | null>(null);
 
   const days = ['Tất cả', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
-  const levels = ['Tất cả', 'Cơ bản', 'Mọi cấp độ', 'Trị liệu sâu'];
+  const levels = ['Tất cả', 'Cơ bản', 'Mọi cấp độ', 'Phục hồi sâu'];
 
   // Filter schedules
   const filteredSchedules = classSchedules.filter((sch) => {
@@ -53,7 +53,7 @@ export default function ClassSchedule() {
           Lịch Thực Hành Yoga & Thở Thiền
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Học Viện Yoga Cân Bằng thiết kế các khung giờ đa dạng từ bình minh tĩnh lặng tới hoàng hôn phục hồi, phù hợp cho mọi hiện trạng cơ thể. Tham khảo bảng giờ và nhấn liên kết phía dưới để trao đổi trực tiếp lịch tập riêng biệt.
+          Trung Tâm Sen Yoga thiết kế các khung giờ đa dạng từ bình minh tĩnh lặng tới hoàng hôn phục hồi, phù hợp cho mọi hiện trạng cơ thể. Tham khảo bảng giờ và nhấn liên kết phía dưới để trao đổi trực tiếp lịch tập riêng biệt.
         </p>
       </div>
 
@@ -246,7 +246,7 @@ export default function ClassSchedule() {
       </div>
 
       <div className="mt-4 text-center text-xs text-art-text-muted italic select-none">
-        * Các khung giờ còn lại trong ngày nhận thiết kế lớp tập Yoga & thở trị liệu cá nhân (PT) theo yêu cầu riêng biệt.
+        * Các khung giờ còn lại trong ngày nhận thiết kế lớp tập Yoga & thở phục hồi cá nhân (PT) theo yêu cầu riêng biệt.
       </div>
 
       {/* Main Multi-channel Registration Guidance Box */}
@@ -258,7 +258,7 @@ export default function ClassSchedule() {
               Bạn Muốn Đăng Ký Trực Tiếp Hoặc Nhận Tư Vấn Riêng?
             </h4>
             <p className="text-xs sm:text-sm text-art-text-muted leading-relaxed">
-              Học Viện không tích hợp tính năng thanh toán hay biểu mẫu lưu trữ rườm rà tại đây nhằm tôn trọng tính riêng tư của bạn. Bạn hãy nhấp vào các liên kết trực tiếp bên dưới, gửi tin nhắn tới Học Viện qua Zalo hoặc Messenger để được tư vấn lộ trình phù hợp và sắp xếp chỗ sớm nhất.
+              Trung tâm không tích hợp tính năng thanh toán hay biểu mẫu lưu trữ rườm rà tại đây nhằm tôn trọng tính riêng tư của bạn. Bạn hãy nhấp vào các liên kết trực tiếp bên dưới, gửi tin nhắn tới Trung tâm qua Zalo hoặc Messenger để được tư vấn lộ trình phù hợp và sắp xếp chỗ sớm nhất.
             </p>
           </div>
 
@@ -290,7 +290,7 @@ export default function ClassSchedule() {
         {/* Small check assurance status */}
         <div className="mt-4 pt-3 border-t border-art-divider flex items-center gap-2 text-[11px] text-art-text-muted select-none">
           <CheckCircle className="w-4 h-4 text-art-green" />
-          <span>Học Viện hoạt động trực tuyến 24/7. Bạn thường sẽ nhận được câu trả lời từ chúng tôi trong vòng 10-15 phút.</span>
+          <span>Trung tâm hoạt động trực tuyến 24/7. Bạn thường sẽ nhận được câu trả lời từ chúng tôi trong vòng 10-15 phút.</span>
         </div>
       </div>
 

@@ -36,7 +36,7 @@ export default function FAQSection() {
           Giải Đáp Câu Hỏi Thường Gặp
         </h3>
         <p className="text-xs sm:text-sm text-art-text-muted mt-2.5 leading-relaxed">
-          Tìm câu trả lời nhanh chóng cho các thắc mắc về kỹ thuật tập thở Pranayama, các lớp thở chỉnh dáng, phục hồi cột sống hoặc chế độ luyện tập thích hợp nhất tại Học Viện.
+          Tìm câu trả lời nhanh chóng cho các thắc mắc về kỹ thuật tập thở Pranayama, các lớp thở chỉnh dáng, phục hồi cột sống hoặc chế độ luyện tập thích hợp nhất tại Trung tâm.
         </p>
       </div>
 
@@ -112,14 +112,14 @@ export default function FAQSection() {
                           <div className="mt-3.5 p-3 bg-white border border-art-divider rounded-lg flex items-start gap-2 max-w-xl">
                             <Info className="w-4 h-4 text-art-taupe shrink-0 mt-0.5" />
                             <span className="text-[11px] text-art-text-muted">
-                              Mọi bài tập thở hay tư thế đều có thể tuỳ chỉnh theo các chứng bệnh cột sống. Bạn muốn nhận bộ bài tập cá nhân phù hợp?
+                              Mọi bài tập thở hay tư thế đều có thể tuỳ chỉnh theo hiện trạng cột sống. Bạn muốn nhận bộ bài tập cá nhân phù hợp?
                               <a
                                 href={zaloUrl}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-art-green font-bold hover:underline inline-flex items-center gap-0.5 ml-1.5 uppercase tracking-wide text-[10px]"
                               >
-                                Nhắn Học Viện tư vấn <Sparkles className="w-2.5 h-2.5" />
+                                Nhắn Trung tâm tư vấn <Sparkles className="w-2.5 h-2.5" />
                               </a>
                             </span>
                           </div>
@@ -137,7 +137,7 @@ export default function FAQSection() {
       {/* Trust reassurance badge */}
       <div className="mt-12 text-center border-t border-art-divider/60 pt-6 max-w-md mx-auto">
         <p className="text-[11px] text-art-text-muted italic leading-relaxed">
-          Bạn có vướng mắc nào khác chưa được liệt kê tại đây không? Hãy liên hệ nhắn tin cho Học Viện Yoga Cân Bằng qua Zalo hoặc Messenger bất cứ lúc nào để được hồi đáp chân thành nhất.
+          Bạn có vướng mắc nào khác chưa được liệt kê tại đây không? Hãy liên hệ nhắn tin cho Trung Tâm Sen Yoga qua Zalo hoặc Messenger bất cứ lúc nào để được hồi đáp chân thành nhất.
         </p>
         <a
           href={zaloUrl}
@@ -146,7 +146,7 @@ export default function FAQSection() {
           className="mt-3 inline-flex items-center gap-1.5 px-4 py-2 bg-art-taupe-bg hover:bg-art-divider text-art-green font-bold text-[10px] uppercase tracking-wider rounded-lg border border-art-divider transition-all shadow-3xs"
         >
           <MessageSquare className="w-3.5 h-3.5" />
-          Hỏi trực tiếp Học Viện
+          Hỏi trực tiếp Trung tâm
         </a>
       </div>
 
